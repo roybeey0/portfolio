@@ -27,7 +27,7 @@ export default function ProjectCard2() {
     >
 
       {/* Top row */}
-      <div className="flex items-start justify-between">
+      <div className="flex flex-col sm:flex-row items-start gap-3 sm:gap-0 justify-between">
         <div className="flex flex-col gap-1">
           <h3 className="text-zinc-300 text-xl font-medium" style={{fontFamily: 'Georgia, serif'}}>
             CodeT5 Python Code Generator
@@ -36,7 +36,7 @@ export default function ProjectCard2() {
             Fine-tuned CodeT5 Transformer for Python code generation from natural language docstrings
           </p>
         </div>
-        <div className="flex gap-2 shrink-0 ml-4">
+        <div className="flex gap-2 shrink-0 sm:ml-4">
           <a href="https://huggingface.co/roybeey/codet5-python-codegen" target="_blank"
             className="flex items-center gap-1.5 text-zinc-600 hover:text-zinc-400 transition-colors text-sm border border-white/5 rounded-lg px-3 py-1.5 hover:border-white/10">
             🤗 HuggingFace
@@ -50,7 +50,7 @@ export default function ProjectCard2() {
       </div>
 
       {/* Metrics */}
-      <div className="grid grid-cols-4 gap-3">
+      <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
         {[
           { label: 'BLEU-4', value: '54.66' },
           { label: 'ROUGE-1', value: '0.611' },

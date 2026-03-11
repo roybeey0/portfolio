@@ -32,7 +32,7 @@ export default function ProjectCard3() {
 
 
       {/* Top row */}
-      <div className="flex items-start justify-between">
+      <div className="flex flex-col sm:flex-row items-start gap-3 sm:gap-0 justify-between">
         <div className="flex flex-col gap-1">
           <h3 className="text-zinc-300 text-xl font-medium" style={{fontFamily: 'Georgia, serif'}}>
             Genetic Algorithm for Trading Strategy Optimization
@@ -49,7 +49,7 @@ export default function ProjectCard3() {
       </div>
 
       {/* Metrics */}
-      <div className="grid grid-cols-4 gap-3">
+      <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
         {[
           { label: 'Total Return', value: '+7.27%' },
           { label: 'Win Rate', value: '90.9%' },
