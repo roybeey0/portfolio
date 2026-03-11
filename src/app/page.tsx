@@ -20,7 +20,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row items-center gap-6 md:gap-8 pb-6 md:pb-8 border-b border-white/5 md:justify-center">
 
             {/* Foto Profil */}
-            <div className="w-28 h-28 md:w-40 md:h-40 rounded-full overflow-hidden border-2 border-white/10 shrink-0">
+            <div className="w-85 h-85 md:w-40 md:h-40 rounded-full overflow-hidden border-2 border-white/10 shrink-0">
               <img src="/profile.webp" alt="Profile" className="w-full h-full object-cover" />
             </div>
 
