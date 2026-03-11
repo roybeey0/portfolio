@@ -13,8 +13,8 @@ export default function Home() {
         ::-webkit-scrollbar-thumb:hover { background: #3a3a3a; }
       `}</style>
 
-      <div className="min-h-screen bg-[#0f0f0f] flex flex-col items-center py-6 px-4 md:py-10 md:px-6">
-        <div className="w-full max-w-[1300px] h-fit rounded-2xl md:rounded-3xl bg-[#1a1a1a] shadow-[0_20px_60px_rgba(0,0,0,0.8),0_0_0_1px_rgba(255,255,255,0.06)] p-6 md:p-10">
+      <div className="min-h-screen bg-[#0f0f0f] flex flex-col items-center py-6 px-4 md:py-10 md:px-6 overflow-x-hidden">
+        <div className="w-full max-w-[1300px] h-fit rounded-2xl md:rounded-3xl bg-[#1a1a1a] shadow-[0_20px_60px_rgba(0,0,0,0.8),0_0_0_1px_rgba(255,255,255,0.06)] p-6 md:p-10 overflow-hidden">
 
           {/* Header */}
           <div className="flex flex-col md:flex-row items-center gap-6 md:gap-8 pb-6 md:pb-8 border-b border-white/5 md:justify-center">
