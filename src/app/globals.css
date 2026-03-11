@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+body {
+  background: #0f0f0f;
+  min-height: 100vh;
+}
