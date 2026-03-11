@@ -29,7 +29,7 @@ export default function ProjectCard() {
   >
 
       {/* Top row */}
-      <div className="flex items-start justify-between">
+      <div className="flex flex-col sm:flex-row items-start gap-3 sm:gap-0 justify-between">
         <div className="flex flex-col gap-1">
           <h3 className="text-zinc-300 text-xl font-medium" style={{fontFamily: 'Georgia, serif'}}>
             OKX Futures Automated Trading Bot - Demo Trading

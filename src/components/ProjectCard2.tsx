@@ -39,7 +39,7 @@ export default function ProjectCard2() {
         <div className="flex gap-2 shrink-0 sm:ml-4">
           <a href="https://huggingface.co/roybeey/codet5-python-codegen" target="_blank"
             className="flex items-center gap-1.5 text-zinc-600 hover:text-zinc-400 transition-colors text-sm border border-white/5 rounded-lg px-3 py-1.5 hover:border-white/10">
-            🤗 HuggingFace
+            HuggingFace
           </a>
           <a href="https://github.com/roybeey0/codet5-python-codegen" target="_blank"
             className="flex items-center gap-1.5 text-zinc-600 hover:text-zinc-400 transition-colors text-sm border border-white/5 rounded-lg px-3 py-1.5 hover:border-white/10">
