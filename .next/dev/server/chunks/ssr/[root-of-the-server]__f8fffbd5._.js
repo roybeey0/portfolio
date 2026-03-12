@@ -1752,9 +1752,10 @@ function ProjectCard5() {
                                         style: {
                                             background: 'rgba(236,72,153,0.15)',
                                             color: '#f9a8d4',
-                                            border: '1px solid rgba(236,72,153,0.3)'
+                                            border: '1px solid rgba(236,72,153,0.3)',
+                                            fontFamily: 'monospace'
                                         },
-                                        children: "⛓ Web3"
+                                        children: "Web3"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/ProjectCard5.tsx",
                                         lineNumber: 36,
@@ -1765,7 +1766,8 @@ function ProjectCard5() {
                                         style: {
                                             background: 'rgba(236,72,153,0.1)',
                                             color: '#fbcfe8',
-                                            border: '1px solid rgba(236,72,153,0.2)'
+                                            border: '1px solid rgba(236,72,153,0.2)',
+                                            fontFamily: 'monospace'
                                         },
                                         children: "Blockchain"
                                     }, void 0, false, {
@@ -1782,8 +1784,9 @@ function ProjectCard5() {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                 className: "text-xl font-medium",
                                 style: {
-                                    fontFamily: 'Georgia, serif',
-                                    color: '#e2e8f0'
+                                    fontFamily: 'monospace',
+                                    color: '#e2e8f0',
+                                    letterSpacing: '0.02em'
                                 },
                                 children: "Python Blockchain Implementation + Wallet Analytics"
                             }, void 0, false, {
@@ -1793,7 +1796,8 @@ function ProjectCard5() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 style: {
-                                    color: '#64748b'
+                                    color: '#64748b',
+                                    fontFamily: 'monospace'
                                 },
                                 className: "text-base",
                                 children: "Blockchain from scratch & Ethereum on-chain wallet data analytics"
@@ -1815,7 +1819,8 @@ function ProjectCard5() {
                         style: {
                             color: '#94a3b8',
                             border: '1px solid rgba(236,72,153,0.2)',
-                            background: 'rgba(236,72,153,0.05)'
+                            background: 'rgba(236,72,153,0.05)',
+                            fontFamily: 'monospace'
                         },
                         onMouseEnter: (e)=>e.currentTarget.style.color = '#f9a8d4',
                         onMouseLeave: (e)=>e.currentTarget.style.color = '#94a3b8',
@@ -1897,7 +1902,8 @@ function ProjectCard5() {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 className: "text-xs",
                                 style: {
-                                    color: '#ec4899'
+                                    color: '#ec4899',
+                                    fontFamily: 'monospace'
                                 },
                                 children: m.label
                             }, void 0, false, {
@@ -1908,7 +1914,7 @@ function ProjectCard5() {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 className: "text-2xl font-light",
                                 style: {
-                                    fontFamily: 'Georgia, serif',
+                                    fontFamily: 'monospace',
                                     color: '#f9a8d4'
                                 },
                                 children: m.value
@@ -1920,7 +1926,8 @@ function ProjectCard5() {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 className: "text-xs",
                                 style: {
-                                    color: '#475569'
+                                    color: '#475569',
+                                    fontFamily: 'monospace'
                                 },
                                 children: m.sub
                             }, void 0, false, {
@@ -1956,7 +1963,8 @@ function ProjectCard5() {
                         style: {
                             color: '#ec4899',
                             border: '1px solid rgba(236,72,153,0.2)',
-                            background: 'rgba(236,72,153,0.05)'
+                            background: 'rgba(236,72,153,0.05)',
+                            fontFamily: 'monospace'
                         },
                         children: f
                     }, f, false, {
@@ -1995,7 +2003,8 @@ function ProjectCard5() {
                             className: "text-sm rounded px-2 py-0.5",
                             style: {
                                 color: '#f9a8d4',
-                                background: 'rgba(236,72,153,0.08)'
+                                background: 'rgba(236,72,153,0.08)',
+                                fontFamily: 'monospace'
                             },
                             children: t
                         }, t, false, {
@@ -2018,8 +2027,9 @@ function ProjectCard5() {
                     className: "markdown-body",
                     style: {
                         backgroundColor: 'transparent',
-                        fontFamily: 'Georgia, serif',
-                        fontSize: '15px'
+                        fontFamily: 'monospace',
+                        fontSize: '14px',
+                        letterSpacing: '0.02em'
                     },
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$markdown$2f$lib$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__Markdown__as__default$3e$__["default"], {
                         remarkPlugins: [
@@ -2047,7 +2057,8 @@ function ProjectCard5() {
                 style: {
                     color: '#ec4899',
                     border: '1px solid rgba(236,72,153,0.2)',
-                    background: 'rgba(236,72,153,0.05)'
+                    background: 'rgba(236,72,153,0.05)',
+                    fontFamily: 'monospace'
                 },
                 onMouseEnter: (e)=>e.currentTarget.style.color = '#f9a8d4',
                 onMouseLeave: (e)=>e.currentTarget.style.color = '#ec4899',

@@ -2365,11 +2365,11 @@ var _s = __turbopack_context__.k.signature();
 function ProjectCard5() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(32);
-    if ($[0] !== "45ceaa632035301c3a6f2925a17082eb61effda848a19b41a66a9145c22e1fe0") {
+    if ($[0] !== "beb7b1b106e3bace31458a295147ecd1dd3666d850a2dc2ac330ba66d1a722b6") {
         for(let $i = 0; $i < 32; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "45ceaa632035301c3a6f2925a17082eb61effda848a19b41a66a9145c22e1fe0";
+        $[0] = "beb7b1b106e3bace31458a295147ecd1dd3666d850a2dc2ac330ba66d1a722b6";
     }
     const [open, setOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const [readme, setReadme] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("");
@@ -2421,9 +2421,10 @@ function ProjectCard5() {
             style: {
                 background: "rgba(236,72,153,0.15)",
                 color: "#f9a8d4",
-                border: "1px solid rgba(236,72,153,0.3)"
+                border: "1px solid rgba(236,72,153,0.3)",
+                fontFamily: "monospace"
             },
-            children: "⛓ Web3"
+            children: "Web3"
         }, void 0, false, {
             fileName: "[project]/src/components/ProjectCard5.tsx",
             lineNumber: 62,
@@ -2444,18 +2445,19 @@ function ProjectCard5() {
                     style: {
                         background: "rgba(236,72,153,0.1)",
                         color: "#fbcfe8",
-                        border: "1px solid rgba(236,72,153,0.2)"
+                        border: "1px solid rgba(236,72,153,0.2)",
+                        fontFamily: "monospace"
                     },
                     children: "Blockchain"
                 }, void 0, false, {
                     fileName: "[project]/src/components/ProjectCard5.tsx",
-                    lineNumber: 73,
+                    lineNumber: 74,
                     columnNumber: 60
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/ProjectCard5.tsx",
-            lineNumber: 73,
+            lineNumber: 74,
             columnNumber: 10
         }, this);
         $[7] = t6;
@@ -2471,30 +2473,32 @@ function ProjectCard5() {
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                     className: "text-xl font-medium",
                     style: {
-                        fontFamily: "Georgia, serif",
-                        color: "#e2e8f0"
+                        fontFamily: "monospace",
+                        color: "#e2e8f0",
+                        letterSpacing: "0.02em"
                     },
                     children: "Python Blockchain Implementation + Wallet Analytics"
                 }, void 0, false, {
                     fileName: "[project]/src/components/ProjectCard5.tsx",
-                    lineNumber: 84,
+                    lineNumber: 86,
                     columnNumber: 51
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                     style: {
-                        color: "#64748b"
+                        color: "#64748b",
+                        fontFamily: "monospace"
                     },
                     className: "text-base",
                     children: "Blockchain from scratch & Ethereum on-chain wallet data analytics"
                 }, void 0, false, {
                     fileName: "[project]/src/components/ProjectCard5.tsx",
-                    lineNumber: 87,
+                    lineNumber: 90,
                     columnNumber: 66
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/ProjectCard5.tsx",
-            lineNumber: 84,
+            lineNumber: 86,
             columnNumber: 10
         }, this);
         $[8] = t7;
@@ -2506,7 +2510,8 @@ function ProjectCard5() {
         t8 = {
             color: "#94a3b8",
             border: "1px solid rgba(236,72,153,0.2)",
-            background: "rgba(236,72,153,0.05)"
+            background: "rgba(236,72,153,0.05)",
+            fontFamily: "monospace"
         };
         $[9] = t8;
     } else {
@@ -2541,33 +2546,33 @@ function ProjectCard5() {
                                     d: "M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/ProjectCard5.tsx",
-                                    lineNumber: 107,
+                                    lineNumber: 112,
                                     columnNumber: 561
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                                     d: "M9 18c-4.51 2-5-2-7-2"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/ProjectCard5.tsx",
-                                    lineNumber: 107,
+                                    lineNumber: 112,
                                     columnNumber: 822
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/ProjectCard5.tsx",
-                            lineNumber: 107,
+                            lineNumber: 112,
                             columnNumber: 381
                         }, this),
                         "View on GitHub"
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/ProjectCard5.tsx",
-                    lineNumber: 107,
+                    lineNumber: 112,
                     columnNumber: 100
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/ProjectCard5.tsx",
-            lineNumber: 107,
+            lineNumber: 112,
             columnNumber: 10
         }, this);
         $[10] = t9;
@@ -2602,7 +2607,7 @@ function ProjectCard5() {
             ].map(_ProjectCard5Anonymous)
         }, void 0, false, {
             fileName: "[project]/src/components/ProjectCard5.tsx",
-            lineNumber: 114,
+            lineNumber: 119,
             columnNumber: 11
         }, this);
         $[11] = t10;
@@ -2626,7 +2631,7 @@ function ProjectCard5() {
             ].map(_ProjectCard5Anonymous2)
         }, void 0, false, {
             fileName: "[project]/src/components/ProjectCard5.tsx",
-            lineNumber: 137,
+            lineNumber: 142,
             columnNumber: 11
         }, this);
         $[12] = t11;
@@ -2646,7 +2651,7 @@ function ProjectCard5() {
                     children: "Stack:"
                 }, void 0, false, {
                     fileName: "[project]/src/components/ProjectCard5.tsx",
-                    lineNumber: 144,
+                    lineNumber: 149,
                     columnNumber: 62
                 }, this),
                 [
@@ -2661,7 +2666,7 @@ function ProjectCard5() {
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/ProjectCard5.tsx",
-            lineNumber: 144,
+            lineNumber: 149,
             columnNumber: 11
         }, this);
         $[13] = t12;
@@ -2679,8 +2684,9 @@ function ProjectCard5() {
                 className: "markdown-body",
                 style: {
                     backgroundColor: "transparent",
-                    fontFamily: "Georgia, serif",
-                    fontSize: "15px"
+                    fontFamily: "monospace",
+                    fontSize: "14px",
+                    letterSpacing: "0.02em"
                 },
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$markdown$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__Markdown__as__default$3e$__["default"], {
                     remarkPlugins: [
@@ -2689,17 +2695,17 @@ function ProjectCard5() {
                     children: readme
                 }, void 0, false, {
                     fileName: "[project]/src/components/ProjectCard5.tsx",
-                    lineNumber: 159,
+                    lineNumber: 165,
                     columnNumber: 10
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/ProjectCard5.tsx",
-                lineNumber: 155,
+                lineNumber: 160,
                 columnNumber: 8
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/components/ProjectCard5.tsx",
-            lineNumber: 153,
+            lineNumber: 158,
             columnNumber: 19
         }, this);
         $[14] = open;
@@ -2723,7 +2729,8 @@ function ProjectCard5() {
         t15 = {
             color: "#ec4899",
             border: "1px solid rgba(236,72,153,0.2)",
-            background: "rgba(236,72,153,0.05)"
+            background: "rgba(236,72,153,0.05)",
+            fontFamily: "monospace"
         };
         $[19] = t15;
     } else {
@@ -2747,7 +2754,7 @@ function ProjectCard5() {
             d: "m6 9 6 6 6-6"
         }, void 0, false, {
             fileName: "[project]/src/components/ProjectCard5.tsx",
-            lineNumber: 201,
+            lineNumber: 208,
             columnNumber: 11
         }, this);
         $[22] = t18;
@@ -2770,7 +2777,7 @@ function ProjectCard5() {
             children: t18
         }, void 0, false, {
             fileName: "[project]/src/components/ProjectCard5.tsx",
-            lineNumber: 208,
+            lineNumber: 215,
             columnNumber: 11
         }, this);
         $[23] = t17;
@@ -2793,7 +2800,7 @@ function ProjectCard5() {
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/ProjectCard5.tsx",
-            lineNumber: 217,
+            lineNumber: 224,
             columnNumber: 11
         }, this);
         $[25] = t14;
@@ -2820,7 +2827,7 @@ function ProjectCard5() {
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/ProjectCard5.tsx",
-            lineNumber: 227,
+            lineNumber: 234,
             columnNumber: 11
         }, this);
         $[29] = t13;
@@ -2844,12 +2851,13 @@ function _ProjectCard5Anonymous3(t) {
         className: "text-sm rounded px-2 py-0.5",
         style: {
             color: "#f9a8d4",
-            background: "rgba(236,72,153,0.08)"
+            background: "rgba(236,72,153,0.08)",
+            fontFamily: "monospace"
         },
         children: t
     }, t, false, {
         fileName: "[project]/src/components/ProjectCard5.tsx",
-        lineNumber: 243,
+        lineNumber: 250,
         columnNumber: 10
     }, this);
 }
@@ -2859,12 +2867,13 @@ function _ProjectCard5Anonymous2(f) {
         style: {
             color: "#ec4899",
             border: "1px solid rgba(236,72,153,0.2)",
-            background: "rgba(236,72,153,0.05)"
+            background: "rgba(236,72,153,0.05)",
+            fontFamily: "monospace"
         },
         children: f
     }, f, false, {
         fileName: "[project]/src/components/ProjectCard5.tsx",
-        lineNumber: 249,
+        lineNumber: 257,
         columnNumber: 10
     }, this);
 }
@@ -2879,41 +2888,43 @@ function _ProjectCard5Anonymous(m) {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                 className: "text-xs",
                 style: {
-                    color: "#ec4899"
+                    color: "#ec4899",
+                    fontFamily: "monospace"
                 },
                 children: m.label
             }, void 0, false, {
                 fileName: "[project]/src/components/ProjectCard5.tsx",
-                lineNumber: 259,
+                lineNumber: 268,
                 columnNumber: 6
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                 className: "text-2xl font-light",
                 style: {
-                    fontFamily: "Georgia, serif",
+                    fontFamily: "monospace",
                     color: "#f9a8d4"
                 },
                 children: m.value
             }, void 0, false, {
                 fileName: "[project]/src/components/ProjectCard5.tsx",
-                lineNumber: 261,
+                lineNumber: 271,
                 columnNumber: 24
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                 className: "text-xs",
                 style: {
-                    color: "#475569"
+                    color: "#475569",
+                    fontFamily: "monospace"
                 },
                 children: m.sub
             }, void 0, false, {
                 fileName: "[project]/src/components/ProjectCard5.tsx",
-                lineNumber: 264,
+                lineNumber: 274,
                 columnNumber: 24
             }, this)
         ]
     }, m.label, true, {
         fileName: "[project]/src/components/ProjectCard5.tsx",
-        lineNumber: 256,
+        lineNumber: 265,
         columnNumber: 10
     }, this);
 }

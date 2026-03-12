@@ -34,24 +34,24 @@ export default function ProjectCard5() {
         <div className="flex flex-col gap-1">
           <div className="flex items-center gap-2 mb-1">
             <span className="text-xs px-2 py-0.5 rounded-full font-medium"
-              style={{background: 'rgba(236,72,153,0.15)', color: '#f9a8d4', border: '1px solid rgba(236,72,153,0.3)'}}>
-              ⛓ Web3
+              style={{background: 'rgba(236,72,153,0.15)', color: '#f9a8d4', border: '1px solid rgba(236,72,153,0.3)', fontFamily: 'monospace'}}>
+              Web3
             </span>
             <span className="text-xs px-2 py-0.5 rounded-full font-medium"
-              style={{background: 'rgba(236,72,153,0.1)', color: '#fbcfe8', border: '1px solid rgba(236,72,153,0.2)'}}>
+              style={{background: 'rgba(236,72,153,0.1)', color: '#fbcfe8', border: '1px solid rgba(236,72,153,0.2)', fontFamily: 'monospace'}}>
               Blockchain
             </span>
           </div>
-          <h3 className="text-xl font-medium" style={{fontFamily: 'Georgia, serif', color: '#e2e8f0'}}>
+          <h3 className="text-xl font-medium" style={{fontFamily: 'monospace', color: '#e2e8f0', letterSpacing: '0.02em'}}>
             Python Blockchain Implementation + Wallet Analytics
           </h3>
-          <p style={{color: '#64748b'}} className="text-base">
+          <p style={{color: '#64748b', fontFamily: 'monospace'}} className="text-base">
             Blockchain from scratch & Ethereum on-chain wallet data analytics
           </p>
         </div>
         <a href="https://github.com/roybeey0/python-blockchain-analytics" target="_blank"
           className="flex items-center gap-1.5 text-sm rounded-lg px-3 py-1.5 shrink-0 sm:ml-4 transition-colors"
-          style={{color: '#94a3b8', border: '1px solid rgba(236,72,153,0.2)', background: 'rgba(236,72,153,0.05)'}}
+          style={{color: '#94a3b8', border: '1px solid rgba(236,72,153,0.2)', background: 'rgba(236,72,153,0.05)', fontFamily: 'monospace'}}
           onMouseEnter={e => (e.currentTarget.style.color = '#f9a8d4')}
           onMouseLeave={e => (e.currentTarget.style.color = '#94a3b8')}
         >
@@ -70,9 +70,9 @@ export default function ProjectCard5() {
         ].map(m => (
           <div key={m.label} className="rounded-xl p-3 flex flex-col gap-1"
             style={{background: 'rgba(236,72,153,0.05)', border: '1px solid rgba(236,72,153,0.1)'}}>
-            <span className="text-xs" style={{color: '#ec4899'}}>{m.label}</span>
-            <span className="text-2xl font-light" style={{fontFamily: 'Georgia, serif', color: '#f9a8d4'}}>{m.value}</span>
-            <span className="text-xs" style={{color: '#475569'}}>{m.sub}</span>
+            <span className="text-xs" style={{color: '#ec4899', fontFamily: 'monospace'}}>{m.label}</span>
+            <span className="text-2xl font-light" style={{fontFamily: 'monospace', color: '#f9a8d4'}}>{m.value}</span>
+            <span className="text-xs" style={{color: '#475569', fontFamily: 'monospace'}}>{m.sub}</span>
           </div>
         ))}
       </div>
@@ -81,7 +81,7 @@ export default function ProjectCard5() {
       <div className="flex flex-wrap gap-2 text-sm">
         {['SHA-256 Hashing', 'Proof of Work', 'Merkle Tree', 'Chain Validation', 'Tamper Detection', 'Etherscan API', 'Gas Analytics', 'Wallet Tracking', 'On-chain Data'].map(f => (
           <span key={f} className="rounded-md px-2 py-1"
-            style={{color: '#ec4899', border: '1px solid rgba(236,72,153,0.2)', background: 'rgba(236,72,153,0.05)'}}>
+            style={{color: '#ec4899', border: '1px solid rgba(236,72,153,0.2)', background: 'rgba(236,72,153,0.05)', fontFamily: 'monospace'}}>
             {f}
           </span>
         ))}
@@ -92,7 +92,7 @@ export default function ProjectCard5() {
         <span className="text-sm" style={{color: '#334155'}}>Stack:</span>
         {['Python 3.10', 'hashlib', 'Etherscan API', 'Pandas', 'Matplotlib', 'Seaborn', 'Requests'].map(t => (
           <span key={t} className="text-sm rounded px-2 py-0.5"
-            style={{color: '#f9a8d4', background: 'rgba(236,72,153,0.08)'}}>
+            style={{color: '#f9a8d4', background: 'rgba(236,72,153,0.08)', fontFamily: 'monospace'}}>
             {t}
           </span>
         ))}
@@ -101,7 +101,7 @@ export default function ProjectCard5() {
       {/* README */}
       {open && (
         <div className="border-t pt-4" style={{borderColor: 'rgba(236,72,153,0.15)'}}>
-          <div className="markdown-body" style={{backgroundColor: 'transparent', fontFamily: 'Georgia, serif', fontSize: '15px'}}>
+          <div className="markdown-body" style={{backgroundColor: 'transparent', fontFamily: 'monospace', fontSize: '14px', letterSpacing: '0.02em'}}>
             <ReactMarkdown remarkPlugins={[remarkGfm]}>{readme}</ReactMarkdown>
           </div>
         </div>
@@ -111,7 +111,7 @@ export default function ProjectCard5() {
       <button
         onClick={() => setOpen(!open)}
         className="flex items-center gap-1.5 text-sm w-fit rounded-lg px-3 py-1.5 transition-colors"
-        style={{color: '#ec4899', border: '1px solid rgba(236,72,153,0.2)', background: 'rgba(236,72,153,0.05)'}}
+        style={{color: '#ec4899', border: '1px solid rgba(236,72,153,0.2)', background: 'rgba(236,72,153,0.05)', fontFamily: 'monospace'}}
         onMouseEnter={e => (e.currentTarget.style.color = '#f9a8d4')}
         onMouseLeave={e => (e.currentTarget.style.color = '#ec4899')}
       >
