@@ -26,7 +26,7 @@ export default function ProjectCard4() {
   const [lightbox, setLightbox] = useState(false);
 
   useEffect(() => {
-    fetch('/README4.md')
+    fetch('/readme/README4.md')
       .then(res => res.text())
       .then(text => setReadme(text));
   }, []);

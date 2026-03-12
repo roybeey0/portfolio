@@ -11,7 +11,7 @@ export default function ProjectCard3() {
   const [readme, setReadme] = useState('');
 
   useEffect(() => {
-    fetch('/README3.md')
+    fetch('/readme/README3.md')
         .then(res => res.text())
         .then(text => {
         // Fix image paths dari results/ ke public/

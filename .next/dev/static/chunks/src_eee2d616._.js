@@ -24,11 +24,11 @@ var _s = __turbopack_context__.k.signature();
 function ProjectCard() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(26);
-    if ($[0] !== "ba2afefa8ae875d474a03c7a724f0d3244da1d9809a8ea68df58acd0fc6987fc") {
+    if ($[0] !== "f7980468dfaeebebcfdc6c0b8ebb49af8e712a599b0eadbb3ac11a10d5f8b3fe") {
         for(let $i = 0; $i < 26; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "ba2afefa8ae875d474a03c7a724f0d3244da1d9809a8ea68df58acd0fc6987fc";
+        $[0] = "f7980468dfaeebebcfdc6c0b8ebb49af8e712a599b0eadbb3ac11a10d5f8b3fe";
     }
     const [open, setOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const [readme, setReadme] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("");
@@ -37,7 +37,7 @@ function ProjectCard() {
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
         t0 = ({
             "ProjectCard[useEffect()]": ()=>{
-                fetch("/README.md").then(_ProjectCardUseEffectAnonymous).then({
+                fetch("/readme/README.md").then(_ProjectCardUseEffectAnonymous).then({
                     "ProjectCard[useEffect() > (anonymous)()]": (text)=>setReadme(text)
                 }["ProjectCard[useEffect() > (anonymous)()]"]);
             }
@@ -483,11 +483,11 @@ var _s = __turbopack_context__.k.signature();
 function ProjectCard2() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(28);
-    if ($[0] !== "94d248690832d516530ffbfce29c74df4df9db9012a1450b1ce3d8ccf9fe00cf") {
+    if ($[0] !== "d4fe09bff206a94f3941ab6ee90cfb73842533df02cfff0fb6a01cfb50de2a3a") {
         for(let $i = 0; $i < 28; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "94d248690832d516530ffbfce29c74df4df9db9012a1450b1ce3d8ccf9fe00cf";
+        $[0] = "d4fe09bff206a94f3941ab6ee90cfb73842533df02cfff0fb6a01cfb50de2a3a";
     }
     const [open, setOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const [readme, setReadme] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("");
@@ -496,7 +496,7 @@ function ProjectCard2() {
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
         t0 = ({
             "ProjectCard2[useEffect()]": ()=>{
-                fetch("/README2.md").then(_ProjectCard2UseEffectAnonymous).then({
+                fetch("/readme/README2.md").then(_ProjectCard2UseEffectAnonymous).then({
                     "ProjectCard2[useEffect() > (anonymous)()]": (text)=>setReadme(text)
                 }["ProjectCard2[useEffect() > (anonymous)()]"]);
             }
@@ -1029,11 +1029,11 @@ var _s = __turbopack_context__.k.signature();
 function ProjectCard3() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(27);
-    if ($[0] !== "db6f44a7088fcc330b2b20cc90b97d5ed0c6da0253c61d92eb68048073443d76") {
+    if ($[0] !== "092f987a460c6d5d772d90d697dac30d3496d4f89398ab98ac614095a3f5ff8f") {
         for(let $i = 0; $i < 27; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "db6f44a7088fcc330b2b20cc90b97d5ed0c6da0253c61d92eb68048073443d76";
+        $[0] = "092f987a460c6d5d772d90d697dac30d3496d4f89398ab98ac614095a3f5ff8f";
     }
     const [open, setOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const [readme, setReadme] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("");
@@ -1042,7 +1042,7 @@ function ProjectCard3() {
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
         t0 = ({
             "ProjectCard3[useEffect()]": ()=>{
-                fetch("/README3.md").then(_ProjectCard3UseEffectAnonymous).then({
+                fetch("/readme/README3.md").then(_ProjectCard3UseEffectAnonymous).then({
                     "ProjectCard3[useEffect() > (anonymous)()]": (text)=>{
                         const fixed = text.replace(/results\//g, "/");
                         setReadme(fixed);
@@ -1594,11 +1594,11 @@ const charts = [
 function ProjectCard4() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(52);
-    if ($[0] !== "07424445ee1cac88e258a4ccfe1f48fdd56faf144c39bbf1a3ad9fced2ebe43d") {
+    if ($[0] !== "117930ca5fc808c12aceee6677797139ef94236918b08ba89b83ef2fe8b3c13e") {
         for(let $i = 0; $i < 52; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "07424445ee1cac88e258a4ccfe1f48fdd56faf144c39bbf1a3ad9fced2ebe43d";
+        $[0] = "117930ca5fc808c12aceee6677797139ef94236918b08ba89b83ef2fe8b3c13e";
     }
     const [open, setOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const [readme, setReadme] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("");
@@ -1609,7 +1609,7 @@ function ProjectCard4() {
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
         t0 = ({
             "ProjectCard4[useEffect()]": ()=>{
-                fetch("/README4.md").then(_ProjectCard4UseEffectAnonymous).then({
+                fetch("/readme/README4.md").then(_ProjectCard4UseEffectAnonymous).then({
                     "ProjectCard4[useEffect() > (anonymous)()]": (text)=>setReadme(text)
                 }["ProjectCard4[useEffect() > (anonymous)()]"]);
             }
@@ -2362,11 +2362,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Project
 ;
 function Home() {
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(16);
-    if ($[0] !== "9a22a9eb7169d483fec59f22f12e4ef7598046a0d39423e5fdd61ab46769b55e") {
+    if ($[0] !== "077d3d54b3baf42e7c90e66f79fdc14ee9198ddc827846665ad8d3bbafe167c6") {
         for(let $i = 0; $i < 16; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "9a22a9eb7169d483fec59f22f12e4ef7598046a0d39423e5fdd61ab46769b55e";
+        $[0] = "077d3d54b3baf42e7c90e66f79fdc14ee9198ddc827846665ad8d3bbafe167c6";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
@@ -2374,7 +2374,7 @@ function Home() {
             children: "\n        .thumb-scroll::-webkit-scrollbar { height: 3px; }\n        .thumb-scroll::-webkit-scrollbar-track { background: transparent; }\n        .thumb-scroll::-webkit-scrollbar-thumb { background: #2a2a2a; border-radius: 999px; }\n        .thumb-scroll::-webkit-scrollbar-thumb:hover { background: #3a3a3a; }\n      "
         }, void 0, false, {
             fileName: "[project]/src/app/page.tsx",
-            lineNumber: 18,
+            lineNumber: 19,
             columnNumber: 10
         }, this);
         $[1] = t0;
@@ -2391,12 +2391,12 @@ function Home() {
                 className: "w-full h-full object-cover"
             }, void 0, false, {
                 fileName: "[project]/src/app/page.tsx",
-                lineNumber: 25,
+                lineNumber: 26,
                 columnNumber: 116
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/app/page.tsx",
-            lineNumber: 25,
+            lineNumber: 26,
             columnNumber: 10
         }, this);
         $[2] = t1;
@@ -2413,7 +2413,7 @@ function Home() {
             children: "Raphael Roybee Salim"
         }, void 0, false, {
             fileName: "[project]/src/app/page.tsx",
-            lineNumber: 32,
+            lineNumber: 33,
             columnNumber: 10
         }, this);
         $[3] = t2;
@@ -2432,7 +2432,7 @@ function Home() {
                     children: "University of Surabaya (UBAYA)"
                 }, void 0, false, {
                     fileName: "[project]/src/app/page.tsx",
-                    lineNumber: 41,
+                    lineNumber: 42,
                     columnNumber: 128
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2440,7 +2440,7 @@ function Home() {
                     children: "|"
                 }, void 0, false, {
                     fileName: "[project]/src/app/page.tsx",
-                    lineNumber: 43,
+                    lineNumber: 44,
                     columnNumber: 47
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2450,13 +2450,13 @@ function Home() {
                     children: "Data Science & Artificial Intelligence"
                 }, void 0, false, {
                     fileName: "[project]/src/app/page.tsx",
-                    lineNumber: 43,
+                    lineNumber: 44,
                     columnNumber: 104
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/app/page.tsx",
-            lineNumber: 41,
+            lineNumber: 42,
             columnNumber: 10
         }, this);
         $[4] = t3;
@@ -2489,20 +2489,20 @@ function Home() {
                             rx: "2"
                         }, void 0, false, {
                             fileName: "[project]/src/app/page.tsx",
-                            lineNumber: 53,
+                            lineNumber: 54,
                             columnNumber: 316
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                             d: "m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"
                         }, void 0, false, {
                             fileName: "[project]/src/app/page.tsx",
-                            lineNumber: 53,
+                            lineNumber: 54,
                             columnNumber: 366
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/page.tsx",
-                    lineNumber: 53,
+                    lineNumber: 54,
                     columnNumber: 136
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2510,13 +2510,13 @@ function Home() {
                     children: "roybeey0@gmail.com"
                 }, void 0, false, {
                     fileName: "[project]/src/app/page.tsx",
-                    lineNumber: 53,
+                    lineNumber: 54,
                     columnNumber: 426
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/app/page.tsx",
-            lineNumber: 53,
+            lineNumber: 54,
             columnNumber: 10
         }, this);
         t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2524,7 +2524,7 @@ function Home() {
             children: "|"
         }, void 0, false, {
             fileName: "[project]/src/app/page.tsx",
-            lineNumber: 54,
+            lineNumber: 55,
             columnNumber: 10
         }, this);
         $[5] = t4;
@@ -2561,14 +2561,14 @@ function Home() {
                             ry: "5"
                         }, void 0, false, {
                             fileName: "[project]/src/app/page.tsx",
-                            lineNumber: 64,
+                            lineNumber: 65,
                             columnNumber: 336
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                             d: "M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
                         }, void 0, false, {
                             fileName: "[project]/src/app/page.tsx",
-                            lineNumber: 64,
+                            lineNumber: 65,
                             columnNumber: 393
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("line", {
@@ -2578,13 +2578,13 @@ function Home() {
                             y2: "6.5"
                         }, void 0, false, {
                             fileName: "[project]/src/app/page.tsx",
-                            lineNumber: 64,
+                            lineNumber: 65,
                             columnNumber: 453
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/page.tsx",
-                    lineNumber: 64,
+                    lineNumber: 65,
                     columnNumber: 156
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2592,13 +2592,13 @@ function Home() {
                     children: "roybeey"
                 }, void 0, false, {
                     fileName: "[project]/src/app/page.tsx",
-                    lineNumber: 64,
+                    lineNumber: 65,
                     columnNumber: 506
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/app/page.tsx",
-            lineNumber: 64,
+            lineNumber: 65,
             columnNumber: 10
         }, this);
         t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2606,7 +2606,7 @@ function Home() {
             children: "|"
         }, void 0, false, {
             fileName: "[project]/src/app/page.tsx",
-            lineNumber: 65,
+            lineNumber: 66,
             columnNumber: 10
         }, this);
         $[7] = t6;
@@ -2638,20 +2638,20 @@ function Home() {
                             d: "M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"
                         }, void 0, false, {
                             fileName: "[project]/src/app/page.tsx",
-                            lineNumber: 75,
+                            lineNumber: 76,
                             columnNumber: 334
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                             d: "M9 18c-4.51 2-5-2-7-2"
                         }, void 0, false, {
                             fileName: "[project]/src/app/page.tsx",
-                            lineNumber: 75,
+                            lineNumber: 76,
                             columnNumber: 595
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/page.tsx",
-                    lineNumber: 75,
+                    lineNumber: 76,
                     columnNumber: 154
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2659,13 +2659,13 @@ function Home() {
                     children: "roybeey0"
                 }, void 0, false, {
                     fileName: "[project]/src/app/page.tsx",
-                    lineNumber: 75,
+                    lineNumber: 76,
                     columnNumber: 635
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/app/page.tsx",
-            lineNumber: 75,
+            lineNumber: 76,
             columnNumber: 10
         }, this);
         t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2673,7 +2673,7 @@ function Home() {
             children: "|"
         }, void 0, false, {
             fileName: "[project]/src/app/page.tsx",
-            lineNumber: 76,
+            lineNumber: 77,
             columnNumber: 10
         }, this);
         $[9] = t8;
@@ -2713,7 +2713,7 @@ function Home() {
                                     d: "M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/page.tsx",
-                                    lineNumber: 85,
+                                    lineNumber: 86,
                                     columnNumber: 494
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
@@ -2723,7 +2723,7 @@ function Home() {
                                     y: "9"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/page.tsx",
-                                    lineNumber: 85,
+                                    lineNumber: 86,
                                     columnNumber: 585
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
@@ -2732,13 +2732,13 @@ function Home() {
                                     r: "2"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/page.tsx",
-                                    lineNumber: 85,
+                                    lineNumber: 86,
                                     columnNumber: 627
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/page.tsx",
-                            lineNumber: 85,
+                            lineNumber: 86,
                             columnNumber: 314
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2746,19 +2746,19 @@ function Home() {
                             children: "Raphael Roybee Salim"
                         }, void 0, false, {
                             fileName: "[project]/src/app/page.tsx",
-                            lineNumber: 85,
+                            lineNumber: 86,
                             columnNumber: 663
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/page.tsx",
-                    lineNumber: 85,
+                    lineNumber: 86,
                     columnNumber: 139
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/app/page.tsx",
-            lineNumber: 85,
+            lineNumber: 86,
             columnNumber: 11
         }, this);
         $[11] = t10;
@@ -2790,19 +2790,19 @@ function Home() {
                             ].map(_HomeAnonymous)
                         }, void 0, false, {
                             fileName: "[project]/src/app/page.tsx",
-                            lineNumber: 92,
+                            lineNumber: 93,
                             columnNumber: 244
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/page.tsx",
-                    lineNumber: 92,
+                    lineNumber: 93,
                     columnNumber: 141
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/app/page.tsx",
-            lineNumber: 92,
+            lineNumber: 93,
             columnNumber: 11
         }, this);
         $[12] = t11;
@@ -2822,33 +2822,33 @@ function Home() {
                     children: "Projects"
                 }, void 0, false, {
                     fileName: "[project]/src/app/page.tsx",
-                    lineNumber: 99,
+                    lineNumber: 100,
                     columnNumber: 61
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ProjectCard$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/src/app/page.tsx",
-                    lineNumber: 101,
+                    lineNumber: 102,
                     columnNumber: 23
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ProjectCard2$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/src/app/page.tsx",
-                    lineNumber: 101,
+                    lineNumber: 102,
                     columnNumber: 38
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ProjectCard3$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/src/app/page.tsx",
-                    lineNumber: 101,
+                    lineNumber: 102,
                     columnNumber: 54
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ProjectCard4$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/src/app/page.tsx",
-                    lineNumber: 101,
+                    lineNumber: 102,
                     columnNumber: 70
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/app/page.tsx",
-            lineNumber: 99,
+            lineNumber: 100,
             columnNumber: 11
         }, this);
         $[13] = t12;
@@ -2888,23 +2888,23 @@ function Home() {
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/page.tsx",
-                                    lineNumber: 117,
+                                    lineNumber: 118,
                                     columnNumber: 388
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/page.tsx",
-                                lineNumber: 117,
+                                lineNumber: 118,
                                 columnNumber: 325
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/page.tsx",
-                        lineNumber: 117,
+                        lineNumber: 118,
                         columnNumber: 132
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/page.tsx",
-                    lineNumber: 117,
+                    lineNumber: 118,
                     columnNumber: 17
                 }, this)
             ]
@@ -2922,7 +2922,7 @@ function _HomeAnonymous(skill) {
         children: skill
     }, skill, false, {
         fileName: "[project]/src/app/page.tsx",
-        lineNumber: 125,
+        lineNumber: 126,
         columnNumber: 10
     }, this);
 }

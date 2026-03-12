@@ -11,7 +11,7 @@ export default function ProjectCard2() {
   const [readme, setReadme] = useState('');
 
   useEffect(() => {
-    fetch('/README2.md')
+    fetch('/readme/README2.md')
       .then(res => res.text())
       .then(text => setReadme(text));
   }, []);
