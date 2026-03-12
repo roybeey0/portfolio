@@ -1377,57 +1377,109 @@ function ProjectCard4() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-all duration-200 flex items-center justify-center",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "opacity-0 group-hover:opacity-100 transition-opacity duration-200 bg-black/70 text-zinc-200 text-sm px-4 py-2 rounded-xl backdrop-blur-sm flex items-center gap-2",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                                            xmlns: "http://www.w3.org/2000/svg",
-                                            width: "14",
-                                            height: "14",
-                                            viewBox: "0 0 24 24",
-                                            fill: "none",
-                                            stroke: "currentColor",
-                                            strokeWidth: "1.5",
-                                            strokeLinecap: "round",
-                                            strokeLinejoin: "round",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
-                                                    cx: "11",
-                                                    cy: "11",
-                                                    r: "8"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/ProjectCard4.tsx",
-                                                    lineNumber: 90,
-                                                    columnNumber: 195
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                                    d: "m21 21-4.35-4.35"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/ProjectCard4.tsx",
-                                                    lineNumber: 90,
-                                                    columnNumber: 226
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                                    d: "M11 8v6M8 11h6"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/ProjectCard4.tsx",
-                                                    lineNumber: 90,
-                                                    columnNumber: 254
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/src/components/ProjectCard4.tsx",
-                                            lineNumber: 90,
-                                            columnNumber: 15
-                                        }, this),
-                                        "Click to expand"
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/src/components/ProjectCard4.tsx",
-                                    lineNumber: 89,
-                                    columnNumber: 15
-                                }, this)
-                            }, void 0, false, {
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "hidden md:flex opacity-0 group-hover:opacity-100 transition-opacity duration-200 bg-black/70 text-zinc-200 text-sm px-4 py-2 rounded-xl backdrop-blur-sm items-center gap-2",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                                                xmlns: "http://www.w3.org/2000/svg",
+                                                width: "14",
+                                                height: "14",
+                                                viewBox: "0 0 24 24",
+                                                fill: "none",
+                                                stroke: "currentColor",
+                                                strokeWidth: "1.5",
+                                                strokeLinecap: "round",
+                                                strokeLinejoin: "round",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
+                                                        cx: "11",
+                                                        cy: "11",
+                                                        r: "8"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/ProjectCard4.tsx",
+                                                        lineNumber: 91,
+                                                        columnNumber: 197
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                                        d: "m21 21-4.35-4.35"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/ProjectCard4.tsx",
+                                                        lineNumber: 91,
+                                                        columnNumber: 228
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                                        d: "M11 8v6M8 11h6"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/ProjectCard4.tsx",
+                                                        lineNumber: 91,
+                                                        columnNumber: 256
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/components/ProjectCard4.tsx",
+                                                lineNumber: 91,
+                                                columnNumber: 17
+                                            }, this),
+                                            "Click to expand"
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/ProjectCard4.tsx",
+                                        lineNumber: 90,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "md:hidden absolute top-2 left-2 bg-black/60 text-zinc-400 text-xs px-2 py-1 rounded-md backdrop-blur-sm flex items-center gap-1.5",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                                                xmlns: "http://www.w3.org/2000/svg",
+                                                width: "11",
+                                                height: "11",
+                                                viewBox: "0 0 24 24",
+                                                fill: "none",
+                                                stroke: "currentColor",
+                                                strokeWidth: "1.5",
+                                                strokeLinecap: "round",
+                                                strokeLinejoin: "round",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
+                                                        cx: "11",
+                                                        cy: "11",
+                                                        r: "8"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/ProjectCard4.tsx",
+                                                        lineNumber: 96,
+                                                        columnNumber: 195
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                                        d: "m21 21-4.35-4.35"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/ProjectCard4.tsx",
+                                                        lineNumber: 96,
+                                                        columnNumber: 226
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                                        d: "M11 8v6M8 11h6"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/ProjectCard4.tsx",
+                                                        lineNumber: 96,
+                                                        columnNumber: 254
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/components/ProjectCard4.tsx",
+                                                lineNumber: 96,
+                                                columnNumber: 15
+                                            }, this),
+                                            "Tap to expand"
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/ProjectCard4.tsx",
+                                        lineNumber: 95,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
                                 fileName: "[project]/src/components/ProjectCard4.tsx",
                                 lineNumber: 88,
                                 columnNumber: 13
@@ -1437,7 +1489,7 @@ function ProjectCard4() {
                                 children: charts[selected].label
                             }, void 0, false, {
                                 fileName: "[project]/src/components/ProjectCard4.tsx",
-                                lineNumber: 94,
+                                lineNumber: 101,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -1461,17 +1513,17 @@ function ProjectCard4() {
                                     className: "w-full h-full object-cover"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/ProjectCard4.tsx",
-                                    lineNumber: 112,
+                                    lineNumber: 119,
                                     columnNumber: 15
                                 }, this)
                             }, c.file, false, {
                                 fileName: "[project]/src/components/ProjectCard4.tsx",
-                                lineNumber: 105,
+                                lineNumber: 112,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/src/components/ProjectCard4.tsx",
-                        lineNumber: 100,
+                        lineNumber: 107,
                         columnNumber: 9
                     }, this)
                 ]
@@ -1498,12 +1550,12 @@ function ProjectCard4() {
                         children: f
                     }, f, false, {
                         fileName: "[project]/src/components/ProjectCard4.tsx",
-                        lineNumber: 121,
+                        lineNumber: 128,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/src/components/ProjectCard4.tsx",
-                lineNumber: 119,
+                lineNumber: 126,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1514,7 +1566,7 @@ function ProjectCard4() {
                         children: "Stack:"
                     }, void 0, false, {
                         fileName: "[project]/src/components/ProjectCard4.tsx",
-                        lineNumber: 127,
+                        lineNumber: 134,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1532,18 +1584,18 @@ function ProjectCard4() {
                                 children: t
                             }, t, false, {
                                 fileName: "[project]/src/components/ProjectCard4.tsx",
-                                lineNumber: 130,
+                                lineNumber: 137,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/src/components/ProjectCard4.tsx",
-                        lineNumber: 128,
+                        lineNumber: 135,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/ProjectCard4.tsx",
-                lineNumber: 126,
+                lineNumber: 133,
                 columnNumber: 7
             }, this),
             open && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1562,17 +1614,17 @@ function ProjectCard4() {
                         children: readme
                     }, void 0, false, {
                         fileName: "[project]/src/components/ProjectCard4.tsx",
-                        lineNumber: 139,
+                        lineNumber: 146,
                         columnNumber: 13
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/ProjectCard4.tsx",
-                    lineNumber: 138,
+                    lineNumber: 145,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/ProjectCard4.tsx",
-                lineNumber: 137,
+                lineNumber: 144,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1597,19 +1649,19 @@ function ProjectCard4() {
                             d: "m6 9 6 6 6-6"
                         }, void 0, false, {
                             fileName: "[project]/src/components/ProjectCard4.tsx",
-                            lineNumber: 151,
+                            lineNumber: 158,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/ProjectCard4.tsx",
-                        lineNumber: 149,
+                        lineNumber: 156,
                         columnNumber: 9
                     }, this),
                     open ? 'Show Less' : 'Read More'
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/ProjectCard4.tsx",
-                lineNumber: 145,
+                lineNumber: 152,
                 columnNumber: 7
             }, this),
             lightbox && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1622,7 +1674,7 @@ function ProjectCard4() {
                         className: "max-w-full max-h-full object-contain rounded-xl"
                     }, void 0, false, {
                         fileName: "[project]/src/components/ProjectCard4.tsx",
-                        lineNumber: 162,
+                        lineNumber: 169,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1630,13 +1682,13 @@ function ProjectCard4() {
                         children: "✕"
                     }, void 0, false, {
                         fileName: "[project]/src/components/ProjectCard4.tsx",
-                        lineNumber: 167,
+                        lineNumber: 174,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/ProjectCard4.tsx",
-                lineNumber: 158,
+                lineNumber: 165,
                 columnNumber: 9
             }, this)
         ]

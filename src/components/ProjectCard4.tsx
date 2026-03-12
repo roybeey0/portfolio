@@ -86,11 +86,18 @@ export default function ProjectCard4() {
             />
             {/* Hover overlay */}
             <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-all duration-200 flex items-center justify-center">
-              <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-200 bg-black/70 text-zinc-200 text-sm px-4 py-2 rounded-xl backdrop-blur-sm flex items-center gap-2">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M11 8v6M8 11h6"/></svg>
-              Click to expand
+              {/* Desktop: muncul saat hover */}
+              <div className="hidden md:flex opacity-0 group-hover:opacity-100 transition-opacity duration-200 bg-black/70 text-zinc-200 text-sm px-4 py-2 rounded-xl backdrop-blur-sm items-center gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M11 8v6M8 11h6"/></svg>
+                Click to expand
             </div>
-          </div>
+            {/* Mobile/Tablet: selalu tampil di pojok */}
+            <div className="md:hidden absolute top-2 left-2 bg-black/60 text-zinc-400 text-xs px-2 py-1 rounded-md backdrop-blur-sm flex items-center gap-1.5">
+              <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M11 8v6M8 11h6"/></svg>
+              Tap to expand
+             </div>
+            </div>
+            
           <div className="absolute bottom-2 right-2 bg-black/60 text-zinc-400 text-xs px-2 py-1 rounded-md backdrop-blur-sm">
             {charts[selected].label}
           </div>

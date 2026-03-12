@@ -1593,12 +1593,12 @@ const charts = [
 ];
 function ProjectCard4() {
     _s();
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(51);
-    if ($[0] !== "f3e83c629c7ebcfcf52ef2456ff6282d2a40c131e52cb02deb9e4660061f9ad9") {
-        for(let $i = 0; $i < 51; $i += 1){
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(52);
+    if ($[0] !== "07424445ee1cac88e258a4ccfe1f48fdd56faf144c39bbf1a3ad9fced2ebe43d") {
+        for(let $i = 0; $i < 52; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "f3e83c629c7ebcfcf52ef2456ff6282d2a40c131e52cb02deb9e4660061f9ad9";
+        $[0] = "07424445ee1cac88e258a4ccfe1f48fdd56faf144c39bbf1a3ad9fced2ebe43d";
     }
     const [open, setOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const [readme, setReadme] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("");
@@ -1793,58 +1793,51 @@ function ProjectCard4() {
     let t11;
     if ($[12] === Symbol.for("react.memo_cache_sentinel")) {
         t11 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-all duration-200 flex items-center justify-center",
-            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "opacity-0 group-hover:opacity-100 transition-opacity duration-200 bg-black/70 text-zinc-200 text-sm px-4 py-2 rounded-xl backdrop-blur-sm flex items-center gap-2",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                        xmlns: "http://www.w3.org/2000/svg",
-                        width: "14",
-                        height: "14",
-                        viewBox: "0 0 24 24",
-                        fill: "none",
-                        stroke: "currentColor",
-                        strokeWidth: "1.5",
-                        strokeLinecap: "round",
-                        strokeLinejoin: "round",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
-                                cx: "11",
-                                cy: "11",
-                                r: "8"
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/ProjectCard4.tsx",
-                                lineNumber: 143,
-                                columnNumber: 500
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                d: "m21 21-4.35-4.35"
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/ProjectCard4.tsx",
-                                lineNumber: 143,
-                                columnNumber: 532
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                d: "M11 8v6M8 11h6"
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/ProjectCard4.tsx",
-                                lineNumber: 143,
-                                columnNumber: 561
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/components/ProjectCard4.tsx",
-                        lineNumber: 143,
-                        columnNumber: 320
-                    }, this),
-                    "Click to expand"
-                ]
-            }, void 0, true, {
-                fileName: "[project]/src/components/ProjectCard4.tsx",
-                lineNumber: 143,
-                columnNumber: 141
-            }, this)
-        }, void 0, false, {
+            className: "hidden md:flex opacity-0 group-hover:opacity-100 transition-opacity duration-200 bg-black/70 text-zinc-200 text-sm px-4 py-2 rounded-xl backdrop-blur-sm items-center gap-2",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                    xmlns: "http://www.w3.org/2000/svg",
+                    width: "14",
+                    height: "14",
+                    viewBox: "0 0 24 24",
+                    fill: "none",
+                    stroke: "currentColor",
+                    strokeWidth: "1.5",
+                    strokeLinecap: "round",
+                    strokeLinejoin: "round",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
+                            cx: "11",
+                            cy: "11",
+                            r: "8"
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/ProjectCard4.tsx",
+                            lineNumber: 143,
+                            columnNumber: 380
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                            d: "m21 21-4.35-4.35"
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/ProjectCard4.tsx",
+                            lineNumber: 143,
+                            columnNumber: 412
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                            d: "M11 8v6M8 11h6"
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/ProjectCard4.tsx",
+                            lineNumber: 143,
+                            columnNumber: 441
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/components/ProjectCard4.tsx",
+                    lineNumber: 143,
+                    columnNumber: 200
+                }, this),
+                "Click to expand"
+            ]
+        }, void 0, true, {
             fileName: "[project]/src/components/ProjectCard4.tsx",
             lineNumber: 143,
             columnNumber: 11
@@ -1853,56 +1846,122 @@ function ProjectCard4() {
     } else {
         t11 = $[12];
     }
-    const t12 = charts[selected];
-    let t13;
-    if ($[13] !== t12.label) {
-        t13 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "absolute bottom-2 right-2 bg-black/60 text-zinc-400 text-xs px-2 py-1 rounded-md backdrop-blur-sm",
-            children: t12.label
-        }, void 0, false, {
+    let t12;
+    if ($[13] === Symbol.for("react.memo_cache_sentinel")) {
+        t12 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-all duration-200 flex items-center justify-center",
+            children: [
+                t11,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "md:hidden absolute top-2 left-2 bg-black/60 text-zinc-400 text-xs px-2 py-1 rounded-md backdrop-blur-sm flex items-center gap-1.5",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                            xmlns: "http://www.w3.org/2000/svg",
+                            width: "11",
+                            height: "11",
+                            viewBox: "0 0 24 24",
+                            fill: "none",
+                            stroke: "currentColor",
+                            strokeWidth: "1.5",
+                            strokeLinecap: "round",
+                            strokeLinejoin: "round",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
+                                    cx: "11",
+                                    cy: "11",
+                                    r: "8"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/ProjectCard4.tsx",
+                                    lineNumber: 150,
+                                    columnNumber: 473
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                    d: "m21 21-4.35-4.35"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/ProjectCard4.tsx",
+                                    lineNumber: 150,
+                                    columnNumber: 505
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                    d: "M11 8v6M8 11h6"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/ProjectCard4.tsx",
+                                    lineNumber: 150,
+                                    columnNumber: 534
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/components/ProjectCard4.tsx",
+                            lineNumber: 150,
+                            columnNumber: 293
+                        }, this),
+                        "Tap to expand"
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/components/ProjectCard4.tsx",
+                    lineNumber: 150,
+                    columnNumber: 146
+                }, this)
+            ]
+        }, void 0, true, {
             fileName: "[project]/src/components/ProjectCard4.tsx",
-            lineNumber: 151,
+            lineNumber: 150,
             columnNumber: 11
         }, this);
-        $[13] = t12.label;
-        $[14] = t13;
+        $[13] = t12;
     } else {
-        t13 = $[14];
+        t12 = $[13];
     }
+    const t13 = charts[selected];
     let t14;
-    if ($[15] !== t10 || $[16] !== t13) {
+    if ($[14] !== t13.label) {
         t14 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "absolute bottom-2 right-2 bg-black/60 text-zinc-400 text-xs px-2 py-1 rounded-md backdrop-blur-sm",
+            children: t13.label
+        }, void 0, false, {
+            fileName: "[project]/src/components/ProjectCard4.tsx",
+            lineNumber: 158,
+            columnNumber: 11
+        }, this);
+        $[14] = t13.label;
+        $[15] = t14;
+    } else {
+        t14 = $[15];
+    }
+    let t15;
+    if ($[16] !== t10 || $[17] !== t14) {
+        t15 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "relative rounded-xl overflow-hidden bg-black/20 cursor-zoom-in border border-white/5 group",
             onClick: t7,
             children: [
                 t10,
-                t11,
-                t13
+                t12,
+                t14
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/ProjectCard4.tsx",
-            lineNumber: 159,
+            lineNumber: 166,
             columnNumber: 11
         }, this);
-        $[15] = t10;
-        $[16] = t13;
+        $[16] = t10;
         $[17] = t14;
-    } else {
-        t14 = $[17];
-    }
-    let t15;
-    if ($[18] === Symbol.for("react.memo_cache_sentinel")) {
-        t15 = {
-            scrollbarWidth: "thin",
-            scrollbarColor: "#2a2a2a transparent"
-        };
         $[18] = t15;
     } else {
         t15 = $[18];
     }
     let t16;
-    if ($[19] !== selected) {
-        t16 = charts.map({
+    if ($[19] === Symbol.for("react.memo_cache_sentinel")) {
+        t16 = {
+            scrollbarWidth: "thin",
+            scrollbarColor: "#2a2a2a transparent"
+        };
+        $[19] = t16;
+    } else {
+        t16 = $[19];
+    }
+    let t17;
+    if ($[20] !== selected) {
+        t17 = charts.map({
             "ProjectCard4[charts.map()]": (c, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                     onClick: {
                         "ProjectCard4[charts.map() > <button>.onClick]": ()=>setSelected(i)
@@ -1914,58 +1973,58 @@ function ProjectCard4() {
                         className: "w-full h-full object-cover"
                     }, void 0, false, {
                         fileName: "[project]/src/components/ProjectCard4.tsx",
-                        lineNumber: 181,
+                        lineNumber: 188,
                         columnNumber: 226
                     }, this)
                 }, c.file, false, {
                     fileName: "[project]/src/components/ProjectCard4.tsx",
-                    lineNumber: 179,
+                    lineNumber: 186,
                     columnNumber: 47
                 }, this)
         }["ProjectCard4[charts.map()]"]);
-        $[19] = selected;
-        $[20] = t16;
+        $[20] = selected;
+        $[21] = t17;
     } else {
-        t16 = $[20];
-    }
-    let t17;
-    if ($[21] !== t16) {
-        t17 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "thumb-scroll flex gap-2 overflow-x-auto pb-2",
-            style: t15,
-            children: t16
-        }, void 0, false, {
-            fileName: "[project]/src/components/ProjectCard4.tsx",
-            lineNumber: 190,
-            columnNumber: 11
-        }, this);
-        $[21] = t16;
-        $[22] = t17;
-    } else {
-        t17 = $[22];
+        t17 = $[21];
     }
     let t18;
-    if ($[23] !== t14 || $[24] !== t17) {
+    if ($[22] !== t17) {
         t18 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "thumb-scroll flex gap-2 overflow-x-auto pb-2",
+            style: t16,
+            children: t17
+        }, void 0, false, {
+            fileName: "[project]/src/components/ProjectCard4.tsx",
+            lineNumber: 197,
+            columnNumber: 11
+        }, this);
+        $[22] = t17;
+        $[23] = t18;
+    } else {
+        t18 = $[23];
+    }
+    let t19;
+    if ($[24] !== t15 || $[25] !== t18) {
+        t19 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "flex flex-col gap-3",
             children: [
-                t14,
-                t17
+                t15,
+                t18
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/ProjectCard4.tsx",
-            lineNumber: 198,
+            lineNumber: 205,
             columnNumber: 11
         }, this);
-        $[23] = t14;
-        $[24] = t17;
+        $[24] = t15;
         $[25] = t18;
+        $[26] = t19;
     } else {
-        t18 = $[25];
+        t19 = $[26];
     }
-    let t19;
-    if ($[26] === Symbol.for("react.memo_cache_sentinel")) {
-        t19 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    let t20;
+    if ($[27] === Symbol.for("react.memo_cache_sentinel")) {
+        t20 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "flex flex-wrap gap-2 text-sm text-zinc-600",
             children: [
                 "Price History & Events",
@@ -1981,20 +2040,6 @@ function ProjectCard4() {
             ].map(_ProjectCard4Anonymous2)
         }, void 0, false, {
             fileName: "[project]/src/components/ProjectCard4.tsx",
-            lineNumber: 207,
-            columnNumber: 11
-        }, this);
-        $[26] = t19;
-    } else {
-        t19 = $[26];
-    }
-    let t20;
-    if ($[27] === Symbol.for("react.memo_cache_sentinel")) {
-        t20 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-            className: "text-zinc-700 text-sm",
-            children: "Stack:"
-        }, void 0, false, {
-            fileName: "[project]/src/components/ProjectCard4.tsx",
             lineNumber: 214,
             columnNumber: 11
         }, this);
@@ -2004,10 +2049,24 @@ function ProjectCard4() {
     }
     let t21;
     if ($[28] === Symbol.for("react.memo_cache_sentinel")) {
-        t21 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        t21 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+            className: "text-zinc-700 text-sm",
+            children: "Stack:"
+        }, void 0, false, {
+            fileName: "[project]/src/components/ProjectCard4.tsx",
+            lineNumber: 221,
+            columnNumber: 11
+        }, this);
+        $[28] = t21;
+    } else {
+        t21 = $[28];
+    }
+    let t22;
+    if ($[29] === Symbol.for("react.memo_cache_sentinel")) {
+        t22 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "flex items-center gap-2",
             children: [
-                t20,
+                t21,
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "flex gap-2 flex-wrap",
                     children: [
@@ -2021,22 +2080,22 @@ function ProjectCard4() {
                     ].map(_ProjectCard4Anonymous3)
                 }, void 0, false, {
                     fileName: "[project]/src/components/ProjectCard4.tsx",
-                    lineNumber: 221,
+                    lineNumber: 228,
                     columnNumber: 57
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/ProjectCard4.tsx",
-            lineNumber: 221,
+            lineNumber: 228,
             columnNumber: 11
         }, this);
-        $[28] = t21;
+        $[29] = t22;
     } else {
-        t21 = $[28];
+        t22 = $[29];
     }
-    let t22;
-    if ($[29] !== open || $[30] !== readme) {
-        t22 = open && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    let t23;
+    if ($[30] !== open || $[31] !== readme) {
+        t23 = open && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "border-t border-white/5 pt-4",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "markdown-body",
@@ -2052,63 +2111,63 @@ function ProjectCard4() {
                     children: readme
                 }, void 0, false, {
                     fileName: "[project]/src/components/ProjectCard4.tsx",
-                    lineNumber: 232,
+                    lineNumber: 239,
                     columnNumber: 10
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/ProjectCard4.tsx",
-                lineNumber: 228,
+                lineNumber: 235,
                 columnNumber: 65
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/components/ProjectCard4.tsx",
-            lineNumber: 228,
+            lineNumber: 235,
             columnNumber: 19
         }, this);
-        $[29] = open;
-        $[30] = readme;
-        $[31] = t22;
+        $[30] = open;
+        $[31] = readme;
+        $[32] = t23;
     } else {
-        t22 = $[31];
+        t23 = $[32];
     }
-    let t23;
-    if ($[32] !== open) {
-        t23 = ({
+    let t24;
+    if ($[33] !== open) {
+        t24 = ({
             "ProjectCard4[<button>.onClick]": ()=>setOpen(!open)
         })["ProjectCard4[<button>.onClick]"];
-        $[32] = open;
-        $[33] = t23;
+        $[33] = open;
+        $[34] = t24;
     } else {
-        t23 = $[33];
+        t24 = $[34];
     }
-    const t24 = open ? "rotate(180deg)" : "rotate(0deg)";
-    let t25;
-    if ($[34] !== t24) {
-        t25 = {
-            transform: t24,
+    const t25 = open ? "rotate(180deg)" : "rotate(0deg)";
+    let t26;
+    if ($[35] !== t25) {
+        t26 = {
+            transform: t25,
             transition: "transform 0.2s"
         };
-        $[34] = t24;
         $[35] = t25;
-    } else {
-        t25 = $[35];
-    }
-    let t26;
-    if ($[36] === Symbol.for("react.memo_cache_sentinel")) {
-        t26 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-            d: "m6 9 6 6 6-6"
-        }, void 0, false, {
-            fileName: "[project]/src/components/ProjectCard4.tsx",
-            lineNumber: 263,
-            columnNumber: 11
-        }, this);
         $[36] = t26;
     } else {
         t26 = $[36];
     }
     let t27;
-    if ($[37] !== t25) {
-        t27 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+    if ($[37] === Symbol.for("react.memo_cache_sentinel")) {
+        t27 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+            d: "m6 9 6 6 6-6"
+        }, void 0, false, {
+            fileName: "[project]/src/components/ProjectCard4.tsx",
+            lineNumber: 270,
+            columnNumber: 11
+        }, this);
+        $[37] = t27;
+    } else {
+        t27 = $[37];
+    }
+    let t28;
+    if ($[38] !== t26) {
+        t28 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
             xmlns: "http://www.w3.org/2000/svg",
             width: "12",
             height: "12",
@@ -2118,43 +2177,43 @@ function ProjectCard4() {
             strokeWidth: "1.5",
             strokeLinecap: "round",
             strokeLinejoin: "round",
-            style: t25,
-            children: t26
+            style: t26,
+            children: t27
         }, void 0, false, {
             fileName: "[project]/src/components/ProjectCard4.tsx",
-            lineNumber: 270,
+            lineNumber: 277,
             columnNumber: 11
         }, this);
-        $[37] = t25;
-        $[38] = t27;
+        $[38] = t26;
+        $[39] = t28;
     } else {
-        t27 = $[38];
+        t28 = $[39];
     }
-    const t28 = open ? "Show Less" : "Read More";
-    let t29;
-    if ($[39] !== t23 || $[40] !== t27 || $[41] !== t28) {
-        t29 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-            onClick: t23,
+    const t29 = open ? "Show Less" : "Read More";
+    let t30;
+    if ($[40] !== t24 || $[41] !== t28 || $[42] !== t29) {
+        t30 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+            onClick: t24,
             className: "flex items-center gap-1.5 text-zinc-500 hover:text-zinc-300 transition-colors text-sm w-fit border border-white/5 rounded-lg px-3 py-1.5 hover:border-white/10",
             children: [
-                t27,
-                t28
+                t28,
+                t29
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/ProjectCard4.tsx",
-            lineNumber: 279,
+            lineNumber: 286,
             columnNumber: 11
         }, this);
-        $[39] = t23;
-        $[40] = t27;
+        $[40] = t24;
         $[41] = t28;
         $[42] = t29;
+        $[43] = t30;
     } else {
-        t29 = $[42];
+        t30 = $[43];
     }
-    let t30;
-    if ($[43] !== lightbox || $[44] !== selected) {
-        t30 = lightbox && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    let t31;
+    if ($[44] !== lightbox || $[45] !== selected) {
+        t31 = lightbox && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "fixed inset-0 bg-black/90 z-50 flex items-center justify-center p-4 backdrop-blur-sm",
             onClick: {
                 "ProjectCard4[<div>.onClick]": ()=>setLightbox(false)
@@ -2166,7 +2225,7 @@ function ProjectCard4() {
                     className: "max-w-full max-h-full object-contain rounded-xl"
                 }, void 0, false, {
                     fileName: "[project]/src/components/ProjectCard4.tsx",
-                    lineNumber: 291,
+                    lineNumber: 298,
                     columnNumber: 39
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2174,51 +2233,51 @@ function ProjectCard4() {
                     children: "✕"
                 }, void 0, false, {
                     fileName: "[project]/src/components/ProjectCard4.tsx",
-                    lineNumber: 291,
+                    lineNumber: 298,
                     columnNumber: 176
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/ProjectCard4.tsx",
-            lineNumber: 289,
+            lineNumber: 296,
             columnNumber: 23
         }, this);
-        $[43] = lightbox;
-        $[44] = selected;
-        $[45] = t30;
+        $[44] = lightbox;
+        $[45] = selected;
+        $[46] = t31;
     } else {
-        t30 = $[45];
+        t31 = $[46];
     }
-    let t31;
-    if ($[46] !== t18 || $[47] !== t22 || $[48] !== t29 || $[49] !== t30) {
-        t31 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+    let t32;
+    if ($[47] !== t19 || $[48] !== t23 || $[49] !== t30 || $[50] !== t31) {
+        t32 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
             className: "rounded-2xl bg-[#141414] border border-white/5 p-6 flex flex-col gap-4 transition-colors",
             whileHover: t2,
             transition: t3,
             children: [
                 t5,
                 t6,
-                t18,
                 t19,
-                t21,
+                t20,
                 t22,
-                t29,
-                t30
+                t23,
+                t30,
+                t31
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/ProjectCard4.tsx",
-            lineNumber: 300,
+            lineNumber: 307,
             columnNumber: 11
         }, this);
-        $[46] = t18;
-        $[47] = t22;
-        $[48] = t29;
+        $[47] = t19;
+        $[48] = t23;
         $[49] = t30;
         $[50] = t31;
+        $[51] = t32;
     } else {
-        t31 = $[50];
+        t32 = $[51];
     }
-    return t31;
+    return t32;
 }
 _s(ProjectCard4, "ZR3cED1ARMxenWgadnhT+AWkjm0=");
 _c = ProjectCard4;
@@ -2228,7 +2287,7 @@ function _ProjectCard4Anonymous3(t) {
         children: t
     }, t, false, {
         fileName: "[project]/src/components/ProjectCard4.tsx",
-        lineNumber: 312,
+        lineNumber: 319,
         columnNumber: 10
     }, this);
 }
@@ -2238,7 +2297,7 @@ function _ProjectCard4Anonymous2(f) {
         children: f
     }, f, false, {
         fileName: "[project]/src/components/ProjectCard4.tsx",
-        lineNumber: 315,
+        lineNumber: 322,
         columnNumber: 10
     }, this);
 }
@@ -2251,7 +2310,7 @@ function _ProjectCard4Anonymous(m) {
                 children: m.label
             }, void 0, false, {
                 fileName: "[project]/src/components/ProjectCard4.tsx",
-                lineNumber: 318,
+                lineNumber: 325,
                 columnNumber: 92
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2262,13 +2321,13 @@ function _ProjectCard4Anonymous(m) {
                 children: m.value
             }, void 0, false, {
                 fileName: "[project]/src/components/ProjectCard4.tsx",
-                lineNumber: 318,
+                lineNumber: 325,
                 columnNumber: 148
             }, this)
         ]
     }, m.label, true, {
         fileName: "[project]/src/components/ProjectCard4.tsx",
-        lineNumber: 318,
+        lineNumber: 325,
         columnNumber: 10
     }, this);
 }
