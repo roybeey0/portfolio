@@ -1,7 +1,5 @@
 # 📊 Crypto Market Analysis — EDA of Bitcoin & Major Altcoins
 
-<div align="center">
-
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge)
@@ -11,8 +9,6 @@
 **Exploratory Data Analysis of BTC, ETH, SOL, BNB — 2020 to 2024**
 
 *Covering: Bull Run · COVID Crash · LUNA Collapse · FTX Collapse · ETF Approval*
-
-</div>
 
 ---
 
@@ -125,6 +121,4 @@ jupyter notebook crypto_eda.ipynb
 
 ---
 
-<div align="center">
-Made with ❤️ by <a href="https://roybeey.com">Raphael Roybee Salim</a>
-</div>
+Made with ❤️ by [Raphael Roybee Salim](https://roybeey.com)
