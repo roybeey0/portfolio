@@ -1594,11 +1594,11 @@ const charts = [
 function ProjectCard4() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(51);
-    if ($[0] !== "c2bec7115d7b91322bc387897aa65db065673d11eb794637617ffb7f3da5cb8b") {
+    if ($[0] !== "f3e83c629c7ebcfcf52ef2456ff6282d2a40c131e52cb02deb9e4660061f9ad9") {
         for(let $i = 0; $i < 51; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "c2bec7115d7b91322bc387897aa65db065673d11eb794637617ffb7f3da5cb8b";
+        $[0] = "f3e83c629c7ebcfcf52ef2456ff6282d2a40c131e52cb02deb9e4660061f9ad9";
     }
     const [open, setOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const [readme, setReadme] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("");
@@ -1893,7 +1893,8 @@ function ProjectCard4() {
     let t15;
     if ($[18] === Symbol.for("react.memo_cache_sentinel")) {
         t15 = {
-            scrollbarWidth: "thin"
+            scrollbarWidth: "thin",
+            scrollbarColor: "#2a2a2a transparent"
         };
         $[18] = t15;
     } else {
@@ -1913,12 +1914,12 @@ function ProjectCard4() {
                         className: "w-full h-full object-cover"
                     }, void 0, false, {
                         fileName: "[project]/src/components/ProjectCard4.tsx",
-                        lineNumber: 180,
+                        lineNumber: 181,
                         columnNumber: 226
                     }, this)
                 }, c.file, false, {
                     fileName: "[project]/src/components/ProjectCard4.tsx",
-                    lineNumber: 178,
+                    lineNumber: 179,
                     columnNumber: 47
                 }, this)
         }["ProjectCard4[charts.map()]"]);
@@ -1930,12 +1931,12 @@ function ProjectCard4() {
     let t17;
     if ($[21] !== t16) {
         t17 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "flex gap-2 overflow-x-auto pb-1",
+            className: "thumb-scroll flex gap-2 overflow-x-auto pb-2",
             style: t15,
             children: t16
         }, void 0, false, {
             fileName: "[project]/src/components/ProjectCard4.tsx",
-            lineNumber: 189,
+            lineNumber: 190,
             columnNumber: 11
         }, this);
         $[21] = t16;
@@ -1953,7 +1954,7 @@ function ProjectCard4() {
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/ProjectCard4.tsx",
-            lineNumber: 197,
+            lineNumber: 198,
             columnNumber: 11
         }, this);
         $[23] = t14;
@@ -1980,7 +1981,7 @@ function ProjectCard4() {
             ].map(_ProjectCard4Anonymous2)
         }, void 0, false, {
             fileName: "[project]/src/components/ProjectCard4.tsx",
-            lineNumber: 206,
+            lineNumber: 207,
             columnNumber: 11
         }, this);
         $[26] = t19;
@@ -1994,7 +1995,7 @@ function ProjectCard4() {
             children: "Stack:"
         }, void 0, false, {
             fileName: "[project]/src/components/ProjectCard4.tsx",
-            lineNumber: 213,
+            lineNumber: 214,
             columnNumber: 11
         }, this);
         $[27] = t20;
@@ -2020,13 +2021,13 @@ function ProjectCard4() {
                     ].map(_ProjectCard4Anonymous3)
                 }, void 0, false, {
                     fileName: "[project]/src/components/ProjectCard4.tsx",
-                    lineNumber: 220,
+                    lineNumber: 221,
                     columnNumber: 57
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/ProjectCard4.tsx",
-            lineNumber: 220,
+            lineNumber: 221,
             columnNumber: 11
         }, this);
         $[28] = t21;
@@ -2051,17 +2052,17 @@ function ProjectCard4() {
                     children: readme
                 }, void 0, false, {
                     fileName: "[project]/src/components/ProjectCard4.tsx",
-                    lineNumber: 231,
+                    lineNumber: 232,
                     columnNumber: 10
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/ProjectCard4.tsx",
-                lineNumber: 227,
+                lineNumber: 228,
                 columnNumber: 65
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/components/ProjectCard4.tsx",
-            lineNumber: 227,
+            lineNumber: 228,
             columnNumber: 19
         }, this);
         $[29] = open;
@@ -2098,7 +2099,7 @@ function ProjectCard4() {
             d: "m6 9 6 6 6-6"
         }, void 0, false, {
             fileName: "[project]/src/components/ProjectCard4.tsx",
-            lineNumber: 262,
+            lineNumber: 263,
             columnNumber: 11
         }, this);
         $[36] = t26;
@@ -2121,7 +2122,7 @@ function ProjectCard4() {
             children: t26
         }, void 0, false, {
             fileName: "[project]/src/components/ProjectCard4.tsx",
-            lineNumber: 269,
+            lineNumber: 270,
             columnNumber: 11
         }, this);
         $[37] = t25;
@@ -2141,7 +2142,7 @@ function ProjectCard4() {
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/ProjectCard4.tsx",
-            lineNumber: 278,
+            lineNumber: 279,
             columnNumber: 11
         }, this);
         $[39] = t23;
@@ -2165,7 +2166,7 @@ function ProjectCard4() {
                     className: "max-w-full max-h-full object-contain rounded-xl"
                 }, void 0, false, {
                     fileName: "[project]/src/components/ProjectCard4.tsx",
-                    lineNumber: 290,
+                    lineNumber: 291,
                     columnNumber: 39
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2173,13 +2174,13 @@ function ProjectCard4() {
                     children: "✕"
                 }, void 0, false, {
                     fileName: "[project]/src/components/ProjectCard4.tsx",
-                    lineNumber: 290,
+                    lineNumber: 291,
                     columnNumber: 176
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/ProjectCard4.tsx",
-            lineNumber: 288,
+            lineNumber: 289,
             columnNumber: 23
         }, this);
         $[43] = lightbox;
@@ -2206,7 +2207,7 @@ function ProjectCard4() {
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/ProjectCard4.tsx",
-            lineNumber: 299,
+            lineNumber: 300,
             columnNumber: 11
         }, this);
         $[46] = t18;
@@ -2227,7 +2228,7 @@ function _ProjectCard4Anonymous3(t) {
         children: t
     }, t, false, {
         fileName: "[project]/src/components/ProjectCard4.tsx",
-        lineNumber: 311,
+        lineNumber: 312,
         columnNumber: 10
     }, this);
 }
@@ -2237,7 +2238,7 @@ function _ProjectCard4Anonymous2(f) {
         children: f
     }, f, false, {
         fileName: "[project]/src/components/ProjectCard4.tsx",
-        lineNumber: 314,
+        lineNumber: 315,
         columnNumber: 10
     }, this);
 }
@@ -2250,7 +2251,7 @@ function _ProjectCard4Anonymous(m) {
                 children: m.label
             }, void 0, false, {
                 fileName: "[project]/src/components/ProjectCard4.tsx",
-                lineNumber: 317,
+                lineNumber: 318,
                 columnNumber: 92
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2261,13 +2262,13 @@ function _ProjectCard4Anonymous(m) {
                 children: m.value
             }, void 0, false, {
                 fileName: "[project]/src/components/ProjectCard4.tsx",
-                lineNumber: 317,
+                lineNumber: 318,
                 columnNumber: 148
             }, this)
         ]
     }, m.label, true, {
         fileName: "[project]/src/components/ProjectCard4.tsx",
-        lineNumber: 317,
+        lineNumber: 318,
         columnNumber: 10
     }, this);
 }
@@ -2302,16 +2303,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Project
 ;
 function Home() {
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(16);
-    if ($[0] !== "475c289ac1607e187fa2a3f7438471a705e4be3b4fedf333b78455981513d9d9") {
+    if ($[0] !== "9a22a9eb7169d483fec59f22f12e4ef7598046a0d39423e5fdd61ab46769b55e") {
         for(let $i = 0; $i < 16; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "475c289ac1607e187fa2a3f7438471a705e4be3b4fedf333b78455981513d9d9";
+        $[0] = "9a22a9eb7169d483fec59f22f12e4ef7598046a0d39423e5fdd61ab46769b55e";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
         t0 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("style", {
-            children: "\n        ::-webkit-scrollbar { width: 6px; }\n        ::-webkit-scrollbar-track { background: #0f0f0f; }\n        ::-webkit-scrollbar-thumb { background: #2a2a2a; border-radius: 999px; }\n        ::-webkit-scrollbar-thumb:hover { background: #3a3a3a; }\n      "
+            children: "\n        .thumb-scroll::-webkit-scrollbar { height: 3px; }\n        .thumb-scroll::-webkit-scrollbar-track { background: transparent; }\n        .thumb-scroll::-webkit-scrollbar-thumb { background: #2a2a2a; border-radius: 999px; }\n        .thumb-scroll::-webkit-scrollbar-thumb:hover { background: #3a3a3a; }\n      "
         }, void 0, false, {
             fileName: "[project]/src/app/page.tsx",
             lineNumber: 18,

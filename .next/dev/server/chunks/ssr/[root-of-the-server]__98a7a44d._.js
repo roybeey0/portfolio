@@ -1447,9 +1447,10 @@ function ProjectCard4() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex gap-2 overflow-x-auto pb-1",
+                        className: "thumb-scroll flex gap-2 overflow-x-auto pb-2",
                         style: {
-                            scrollbarWidth: 'thin'
+                            scrollbarWidth: 'thin',
+                            scrollbarColor: '#2a2a2a transparent'
                         },
                         children: charts.map((c, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                 onClick: ()=>setSelected(i),
@@ -1460,12 +1461,12 @@ function ProjectCard4() {
                                     className: "w-full h-full object-cover"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/ProjectCard4.tsx",
-                                    lineNumber: 109,
+                                    lineNumber: 112,
                                     columnNumber: 15
                                 }, this)
                             }, c.file, false, {
                                 fileName: "[project]/src/components/ProjectCard4.tsx",
-                                lineNumber: 102,
+                                lineNumber: 105,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
@@ -1497,12 +1498,12 @@ function ProjectCard4() {
                         children: f
                     }, f, false, {
                         fileName: "[project]/src/components/ProjectCard4.tsx",
-                        lineNumber: 118,
+                        lineNumber: 121,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/src/components/ProjectCard4.tsx",
-                lineNumber: 116,
+                lineNumber: 119,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1513,7 +1514,7 @@ function ProjectCard4() {
                         children: "Stack:"
                     }, void 0, false, {
                         fileName: "[project]/src/components/ProjectCard4.tsx",
-                        lineNumber: 124,
+                        lineNumber: 127,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1531,18 +1532,18 @@ function ProjectCard4() {
                                 children: t
                             }, t, false, {
                                 fileName: "[project]/src/components/ProjectCard4.tsx",
-                                lineNumber: 127,
+                                lineNumber: 130,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/src/components/ProjectCard4.tsx",
-                        lineNumber: 125,
+                        lineNumber: 128,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/ProjectCard4.tsx",
-                lineNumber: 123,
+                lineNumber: 126,
                 columnNumber: 7
             }, this),
             open && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1561,17 +1562,17 @@ function ProjectCard4() {
                         children: readme
                     }, void 0, false, {
                         fileName: "[project]/src/components/ProjectCard4.tsx",
-                        lineNumber: 136,
+                        lineNumber: 139,
                         columnNumber: 13
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/ProjectCard4.tsx",
-                    lineNumber: 135,
+                    lineNumber: 138,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/ProjectCard4.tsx",
-                lineNumber: 134,
+                lineNumber: 137,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1596,19 +1597,19 @@ function ProjectCard4() {
                             d: "m6 9 6 6 6-6"
                         }, void 0, false, {
                             fileName: "[project]/src/components/ProjectCard4.tsx",
-                            lineNumber: 148,
+                            lineNumber: 151,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/ProjectCard4.tsx",
-                        lineNumber: 146,
+                        lineNumber: 149,
                         columnNumber: 9
                     }, this),
                     open ? 'Show Less' : 'Read More'
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/ProjectCard4.tsx",
-                lineNumber: 142,
+                lineNumber: 145,
                 columnNumber: 7
             }, this),
             lightbox && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1621,7 +1622,7 @@ function ProjectCard4() {
                         className: "max-w-full max-h-full object-contain rounded-xl"
                     }, void 0, false, {
                         fileName: "[project]/src/components/ProjectCard4.tsx",
-                        lineNumber: 159,
+                        lineNumber: 162,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1629,13 +1630,13 @@ function ProjectCard4() {
                         children: "✕"
                     }, void 0, false, {
                         fileName: "[project]/src/components/ProjectCard4.tsx",
-                        lineNumber: 164,
+                        lineNumber: 167,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/ProjectCard4.tsx",
-                lineNumber: 155,
+                lineNumber: 158,
                 columnNumber: 9
             }, this)
         ]
@@ -1669,10 +1670,10 @@ function Home() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("style", {
                 children: `
-        ::-webkit-scrollbar { width: 6px; }
-        ::-webkit-scrollbar-track { background: #0f0f0f; }
-        ::-webkit-scrollbar-thumb { background: #2a2a2a; border-radius: 999px; }
-        ::-webkit-scrollbar-thumb:hover { background: #3a3a3a; }
+        .thumb-scroll::-webkit-scrollbar { height: 3px; }
+        .thumb-scroll::-webkit-scrollbar-track { background: transparent; }
+        .thumb-scroll::-webkit-scrollbar-thumb { background: #2a2a2a; border-radius: 999px; }
+        .thumb-scroll::-webkit-scrollbar-thumb:hover { background: #3a3a3a; }
       `
             }, void 0, false, {
                 fileName: "[project]/src/app/page.tsx",

@@ -8,10 +8,10 @@ export default function Home() {
   return (
     <>
       <style>{`
-        ::-webkit-scrollbar { width: 6px; }
-        ::-webkit-scrollbar-track { background: #0f0f0f; }
-        ::-webkit-scrollbar-thumb { background: #2a2a2a; border-radius: 999px; }
-        ::-webkit-scrollbar-thumb:hover { background: #3a3a3a; }
+        .thumb-scroll::-webkit-scrollbar { height: 3px; }
+        .thumb-scroll::-webkit-scrollbar-track { background: transparent; }
+        .thumb-scroll::-webkit-scrollbar-thumb { background: #2a2a2a; border-radius: 999px; }
+        .thumb-scroll::-webkit-scrollbar-thumb:hover { background: #3a3a3a; }
       `}</style>
 
       <div className="min-h-screen bg-[#0f0f0f] flex flex-col items-center py-6 px-4 md:py-10 md:px-6 overflow-x-hidden">

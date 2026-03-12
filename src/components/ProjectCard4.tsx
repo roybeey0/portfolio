@@ -97,7 +97,10 @@ export default function ProjectCard4() {
         </div>
 
         {/* Thumbnail strip */}
-        <div className="flex gap-2 overflow-x-auto pb-1" style={{scrollbarWidth: 'thin'}}>
+        <div className="thumb-scroll flex gap-2 overflow-x-auto pb-2" style={{
+          scrollbarWidth: 'thin',
+          scrollbarColor: '#2a2a2a transparent',
+        }}>
           {charts.map((c, i) => (
             <button
               key={c.file}
