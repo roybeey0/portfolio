@@ -2,6 +2,7 @@
 import ProjectCard from '@/components/ProjectCard';
 import ProjectCard2 from '@/components/ProjectCard2';
 import ProjectCard3 from '@/components/ProjectCard3';
+import ProjectCard4 from '@/components/ProjectCard4';
 
 export default function Home() {
   return (
@@ -78,6 +79,7 @@ export default function Home() {
             <ProjectCard />
             <ProjectCard2 />
             <ProjectCard3 />
+            <ProjectCard4 />
           </div>
 
           {/* Footer */}
