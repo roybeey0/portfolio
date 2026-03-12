@@ -118,7 +118,3 @@ jupyter notebook crypto_eda.ipynb
 - **OKX Futures Trading Bot** — Automated trading using signals derived from this EDA
 - **Genetic Algorithm Optimizer** — Evolves strategy parameters using historical fitness scoring
 - **Portfolio:** [roybeey.com](https://roybeey.com)
-
----
-
-Made with ❤️ by [Raphael Roybee Salim](https://roybeey.com)
