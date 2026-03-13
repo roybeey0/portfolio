@@ -90,7 +90,28 @@ export default function ProjectCard3() {
       {open && (
         <div className="border-t border-white/5 pt-4">
           <div className="markdown-body" style={{ backgroundColor: 'transparent', fontSize: '15px' }}>
-            <ReactMarkdown remarkPlugins={[remarkGfm]}>
+            <ReactMarkdown
+              remarkPlugins={[remarkGfm]}
+              rehypePlugins={[rehypeRaw]}
+              components={{
+                div: ({node, ...props}: any) => {
+                  const align = node?.properties?.align;
+                  if (align === 'center') {
+                    return <div style={{textAlign: 'center'}} {...props} />;
+                  }
+                  return <div {...props} />;
+                },
+                p: ({node, children, ...props}: any) => {
+                  const hasOnlyImages = node?.children?.every(
+                    (child: any) => child.tagName === 'img' || (child.type === 'text' && child.value.trim() === '')
+                  );
+                  if (hasOnlyImages) {
+                    return <span style={{display: 'block', textAlign: 'inherit'}}>{children}</span>;
+                  }
+                  return <p {...props}>{children}</p>;
+                }
+              }}
+            >
               {readme}
             </ReactMarkdown>
           </div>

@@ -150,7 +150,19 @@ export default function ProjectCard4() {
               components={{
                 div: ({node, ...props}: any) => {
                   const align = node?.properties?.align;
-                  return <div style={{textAlign: align === 'center' ? 'center' : 'left'}} {...props} />;
+                  if (align === 'center') {
+                    return <div style={{textAlign: 'center'}} {...props} />;
+                  }
+                  return <div {...props} />;
+                },
+                p: ({node, children, ...props}: any) => {
+                  const hasOnlyImages = node?.children?.every(
+                    (child: any) => child.tagName === 'img' || (child.type === 'text' && child.value.trim() === '')
+                  );
+                  if (hasOnlyImages) {
+                    return <span style={{display: 'block', textAlign: 'inherit'}}>{children}</span>;
+                  }
+                  return <p {...props}>{children}</p>;
                 }
               }}
             >

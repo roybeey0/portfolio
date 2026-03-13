@@ -171,11 +171,18 @@ export default function ProjectCard7() {
               remarkPlugins={[remarkGfm]}
               rehypePlugins={[rehypeRaw]}
               components={{
-                 div: ({node, ...props}: any) => {
-                    const align = node?.properties?.align;
-                    return <div style={{textAlign: align === 'center' ? 'center' : 'left'}} {...props} />;
-                   }
-                 }}
+                div: ({node, ...props}: any) => {
+                  const align = node?.properties?.align;
+                  if (align === 'center') {
+                    return (
+                     <div style={{
+                        textAlign: 'center',
+                    }} {...props} />
+                   );
+                 }
+                 return <div {...props} />;
+                }
+                }}
                >
                  {readme}
             </ReactMarkdown>

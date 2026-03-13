@@ -12,6 +12,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$markdown$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__Markdown__as__default$3e$__ = __turbopack_context__.i("[project]/node_modules/react-markdown/lib/index.js [app-client] (ecmascript) <export Markdown as default>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$remark$2d$gfm$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/remark-gfm/lib/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$rehype$2d$raw$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/rehype-raw/lib/index.js [app-client] (ecmascript)");
 ;
 var _s = __turbopack_context__.k.signature();
 'use client';
@@ -21,14 +22,15 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 ;
+;
 function ProjectCard() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(26);
-    if ($[0] !== "bf48982582de352caf08e99d122f757b3c3bf2b325566de5b568b91919f1316e") {
+    if ($[0] !== "e46ee5d44e0f1d657d13bd7e6480013aba59592cbf96577b6f83a14f555b6b72") {
         for(let $i = 0; $i < 26; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "bf48982582de352caf08e99d122f757b3c3bf2b325566de5b568b91919f1316e";
+        $[0] = "e46ee5d44e0f1d657d13bd7e6480013aba59592cbf96577b6f83a14f555b6b72";
     }
     const [open, setOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const [readme, setReadme] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("");
@@ -319,6 +321,13 @@ function ProjectCard() {
                     remarkPlugins: [
                         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$remark$2d$gfm$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
                     ],
+                    rehypePlugins: [
+                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$rehype$2d$raw$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
+                    ],
+                    components: {
+                        div: _temp,
+                        p: _temp2
+                    },
                     children: readme
                 }, void 0, false, {
                     fileName: "[project]/src/components/ProjectCard.tsx",
@@ -369,7 +378,7 @@ function ProjectCard() {
             d: "m6 9 6 6 6-6"
         }, void 0, false, {
             fileName: "[project]/src/components/ProjectCard.tsx",
-            lineNumber: 126,
+            lineNumber: 129,
             columnNumber: 11
         }, this);
         $[16] = t12;
@@ -392,7 +401,7 @@ function ProjectCard() {
             children: t12
         }, void 0, false, {
             fileName: "[project]/src/components/ProjectCard.tsx",
-            lineNumber: 133,
+            lineNumber: 136,
             columnNumber: 11
         }, this);
         $[17] = t11;
@@ -412,7 +421,7 @@ function ProjectCard() {
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/ProjectCard.tsx",
-            lineNumber: 142,
+            lineNumber: 145,
             columnNumber: 11
         }, this);
         $[19] = t13;
@@ -436,7 +445,7 @@ function ProjectCard() {
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/ProjectCard.tsx",
-            lineNumber: 152,
+            lineNumber: 155,
             columnNumber: 11
         }, this);
         $[23] = t15;
@@ -449,6 +458,57 @@ function ProjectCard() {
 }
 _s(ProjectCard, "3f6O0xnOUgwkbcljmHoiyGkZpBY=");
 _c = ProjectCard;
+function _temp2(t0) {
+    const { node: node_0, children, ...props_0 } = t0;
+    const hasOnlyImages = node_0?.children?.every(_ProjectCardAnonymousAnonymous);
+    if (hasOnlyImages) {
+        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+            style: {
+                display: "block",
+                textAlign: "inherit"
+            },
+            children: children
+        }, void 0, false, {
+            fileName: "[project]/src/components/ProjectCard.tsx",
+            lineNumber: 172,
+            columnNumber: 12
+        }, this);
+    }
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+        ...props_0,
+        children: children
+    }, void 0, false, {
+        fileName: "[project]/src/components/ProjectCard.tsx",
+        lineNumber: 177,
+        columnNumber: 10
+    }, this);
+}
+function _ProjectCardAnonymousAnonymous(child) {
+    return child.tagName === "img" || child.type === "text" && child.value.trim() === "";
+}
+function _temp(t0) {
+    const { node, ...props } = t0;
+    const align = node?.properties?.align;
+    if (align === "center") {
+        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            style: {
+                textAlign: "center"
+            },
+            ...props
+        }, void 0, false, {
+            fileName: "[project]/src/components/ProjectCard.tsx",
+            lineNumber: 189,
+            columnNumber: 12
+        }, this);
+    }
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        ...props
+    }, void 0, false, {
+        fileName: "[project]/src/components/ProjectCard.tsx",
+        lineNumber: 193,
+        columnNumber: 10
+    }, this);
+}
 function _ProjectCardUseEffectAnonymous(res) {
     return res.text();
 }
@@ -471,6 +531,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$markdown$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__Markdown__as__default$3e$__ = __turbopack_context__.i("[project]/node_modules/react-markdown/lib/index.js [app-client] (ecmascript) <export Markdown as default>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$remark$2d$gfm$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/remark-gfm/lib/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$rehype$2d$raw$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/rehype-raw/lib/index.js [app-client] (ecmascript)");
 ;
 var _s = __turbopack_context__.k.signature();
 'use client';
@@ -480,14 +541,15 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 ;
+;
 function ProjectCard2() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(28);
-    if ($[0] !== "6744a5b8484edcb3a6bdea5e6c5b665f4d9901357f6eaec6add7998ea4e37f24") {
+    if ($[0] !== "2e2936a9172b80c3eb70ee1349afc54cbf9e15f24ebfa84ef79e6cfc0582c7e6") {
         for(let $i = 0; $i < 28; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "6744a5b8484edcb3a6bdea5e6c5b665f4d9901357f6eaec6add7998ea4e37f24";
+        $[0] = "2e2936a9172b80c3eb70ee1349afc54cbf9e15f24ebfa84ef79e6cfc0582c7e6";
     }
     const [open, setOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const [readme, setReadme] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("");
@@ -834,6 +896,13 @@ function ProjectCard2() {
                     remarkPlugins: [
                         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$remark$2d$gfm$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
                     ],
+                    rehypePlugins: [
+                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$rehype$2d$raw$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
+                    ],
+                    components: {
+                        div: _temp,
+                        p: _temp2
+                    },
                     children: readme
                 }, void 0, false, {
                     fileName: "[project]/src/components/ProjectCard2.tsx",
@@ -884,7 +953,7 @@ function ProjectCard2() {
             d: "m6 9 6 6 6-6"
         }, void 0, false, {
             fileName: "[project]/src/components/ProjectCard2.tsx",
-            lineNumber: 151,
+            lineNumber: 154,
             columnNumber: 11
         }, this);
         $[18] = t14;
@@ -907,7 +976,7 @@ function ProjectCard2() {
             children: t14
         }, void 0, false, {
             fileName: "[project]/src/components/ProjectCard2.tsx",
-            lineNumber: 158,
+            lineNumber: 161,
             columnNumber: 11
         }, this);
         $[19] = t13;
@@ -927,7 +996,7 @@ function ProjectCard2() {
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/ProjectCard2.tsx",
-            lineNumber: 167,
+            lineNumber: 170,
             columnNumber: 11
         }, this);
         $[21] = t11;
@@ -952,7 +1021,7 @@ function ProjectCard2() {
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/ProjectCard2.tsx",
-            lineNumber: 177,
+            lineNumber: 180,
             columnNumber: 11
         }, this);
         $[25] = t10;
@@ -965,6 +1034,57 @@ function ProjectCard2() {
 }
 _s(ProjectCard2, "3f6O0xnOUgwkbcljmHoiyGkZpBY=");
 _c = ProjectCard2;
+function _temp2(t0) {
+    const { node: node_0, children, ...props_0 } = t0;
+    const hasOnlyImages = node_0?.children?.every(_ProjectCard2AnonymousAnonymous);
+    if (hasOnlyImages) {
+        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+            style: {
+                display: "block",
+                textAlign: "inherit"
+            },
+            children: children
+        }, void 0, false, {
+            fileName: "[project]/src/components/ProjectCard2.tsx",
+            lineNumber: 197,
+            columnNumber: 12
+        }, this);
+    }
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+        ...props_0,
+        children: children
+    }, void 0, false, {
+        fileName: "[project]/src/components/ProjectCard2.tsx",
+        lineNumber: 202,
+        columnNumber: 10
+    }, this);
+}
+function _ProjectCard2AnonymousAnonymous(child) {
+    return child.tagName === "img" || child.type === "text" && child.value.trim() === "";
+}
+function _temp(t0) {
+    const { node, ...props } = t0;
+    const align = node?.properties?.align;
+    if (align === "center") {
+        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            style: {
+                textAlign: "center"
+            },
+            ...props
+        }, void 0, false, {
+            fileName: "[project]/src/components/ProjectCard2.tsx",
+            lineNumber: 214,
+            columnNumber: 12
+        }, this);
+    }
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        ...props
+    }, void 0, false, {
+        fileName: "[project]/src/components/ProjectCard2.tsx",
+        lineNumber: 218,
+        columnNumber: 10
+    }, this);
+}
 function _ProjectCard2Anonymous(m) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "bg-white/[0.02] border border-white/5 rounded-xl px-4 py-3 flex flex-col gap-1",
@@ -974,7 +1094,7 @@ function _ProjectCard2Anonymous(m) {
                 children: m.label
             }, void 0, false, {
                 fileName: "[project]/src/components/ProjectCard2.tsx",
-                lineNumber: 187,
+                lineNumber: 221,
                 columnNumber: 120
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -985,13 +1105,13 @@ function _ProjectCard2Anonymous(m) {
                 children: m.value
             }, void 0, false, {
                 fileName: "[project]/src/components/ProjectCard2.tsx",
-                lineNumber: 187,
+                lineNumber: 221,
                 columnNumber: 176
             }, this)
         ]
     }, m.label, true, {
         fileName: "[project]/src/components/ProjectCard2.tsx",
-        lineNumber: 187,
+        lineNumber: 221,
         columnNumber: 10
     }, this);
 }
@@ -1017,6 +1137,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$markdown$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__Markdown__as__default$3e$__ = __turbopack_context__.i("[project]/node_modules/react-markdown/lib/index.js [app-client] (ecmascript) <export Markdown as default>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$remark$2d$gfm$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/remark-gfm/lib/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$rehype$2d$raw$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/rehype-raw/lib/index.js [app-client] (ecmascript)");
 ;
 var _s = __turbopack_context__.k.signature();
 'use client';
@@ -1026,14 +1147,15 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 ;
+;
 function ProjectCard3() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(27);
-    if ($[0] !== "093d8a97a4ad8efb1c3db88eecce9b6a9ae31a7cbd554431a9ffeac3fd2f6428") {
+    if ($[0] !== "d696b4770b6e3fc0a0640d174c665a170e43de90e714bba08d1d4da9d32953b2") {
         for(let $i = 0; $i < 27; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "093d8a97a4ad8efb1c3db88eecce9b6a9ae31a7cbd554431a9ffeac3fd2f6428";
+        $[0] = "d696b4770b6e3fc0a0640d174c665a170e43de90e714bba08d1d4da9d32953b2";
     }
     const [open, setOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const [readme, setReadme] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("");
@@ -1357,6 +1479,13 @@ function ProjectCard3() {
                     remarkPlugins: [
                         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$remark$2d$gfm$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
                     ],
+                    rehypePlugins: [
+                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$rehype$2d$raw$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
+                    ],
+                    components: {
+                        div: _temp,
+                        p: _temp2
+                    },
                     children: readme
                 }, void 0, false, {
                     fileName: "[project]/src/components/ProjectCard3.tsx",
@@ -1407,7 +1536,7 @@ function ProjectCard3() {
             d: "m6 9 6 6 6-6"
         }, void 0, false, {
             fileName: "[project]/src/components/ProjectCard3.tsx",
-            lineNumber: 147,
+            lineNumber: 150,
             columnNumber: 11
         }, this);
         $[17] = t13;
@@ -1430,7 +1559,7 @@ function ProjectCard3() {
             children: t13
         }, void 0, false, {
             fileName: "[project]/src/components/ProjectCard3.tsx",
-            lineNumber: 154,
+            lineNumber: 157,
             columnNumber: 11
         }, this);
         $[18] = t12;
@@ -1450,7 +1579,7 @@ function ProjectCard3() {
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/ProjectCard3.tsx",
-            lineNumber: 163,
+            lineNumber: 166,
             columnNumber: 11
         }, this);
         $[20] = t10;
@@ -1475,7 +1604,7 @@ function ProjectCard3() {
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/ProjectCard3.tsx",
-            lineNumber: 173,
+            lineNumber: 176,
             columnNumber: 11
         }, this);
         $[24] = t16;
@@ -1488,6 +1617,57 @@ function ProjectCard3() {
 }
 _s(ProjectCard3, "3f6O0xnOUgwkbcljmHoiyGkZpBY=");
 _c = ProjectCard3;
+function _temp2(t0) {
+    const { node: node_0, children, ...props_0 } = t0;
+    const hasOnlyImages = node_0?.children?.every(_ProjectCard3AnonymousAnonymous);
+    if (hasOnlyImages) {
+        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+            style: {
+                display: "block",
+                textAlign: "inherit"
+            },
+            children: children
+        }, void 0, false, {
+            fileName: "[project]/src/components/ProjectCard3.tsx",
+            lineNumber: 193,
+            columnNumber: 12
+        }, this);
+    }
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+        ...props_0,
+        children: children
+    }, void 0, false, {
+        fileName: "[project]/src/components/ProjectCard3.tsx",
+        lineNumber: 198,
+        columnNumber: 10
+    }, this);
+}
+function _ProjectCard3AnonymousAnonymous(child) {
+    return child.tagName === "img" || child.type === "text" && child.value.trim() === "";
+}
+function _temp(t0) {
+    const { node, ...props } = t0;
+    const align = node?.properties?.align;
+    if (align === "center") {
+        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            style: {
+                textAlign: "center"
+            },
+            ...props
+        }, void 0, false, {
+            fileName: "[project]/src/components/ProjectCard3.tsx",
+            lineNumber: 210,
+            columnNumber: 12
+        }, this);
+    }
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        ...props
+    }, void 0, false, {
+        fileName: "[project]/src/components/ProjectCard3.tsx",
+        lineNumber: 214,
+        columnNumber: 10
+    }, this);
+}
 function _ProjectCard3Anonymous(m) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "bg-white/[0.02] border border-white/5 rounded-xl px-4 py-3 flex flex-col gap-1",
@@ -1497,7 +1677,7 @@ function _ProjectCard3Anonymous(m) {
                 children: m.label
             }, void 0, false, {
                 fileName: "[project]/src/components/ProjectCard3.tsx",
-                lineNumber: 183,
+                lineNumber: 217,
                 columnNumber: 120
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1508,13 +1688,13 @@ function _ProjectCard3Anonymous(m) {
                 children: m.value
             }, void 0, false, {
                 fileName: "[project]/src/components/ProjectCard3.tsx",
-                lineNumber: 183,
+                lineNumber: 217,
                 columnNumber: 176
             }, this)
         ]
     }, m.label, true, {
         fileName: "[project]/src/components/ProjectCard3.tsx",
-        lineNumber: 183,
+        lineNumber: 217,
         columnNumber: 10
     }, this);
 }
@@ -1596,11 +1776,11 @@ const charts = [
 function ProjectCard4() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(52);
-    if ($[0] !== "f6672729b8d9a3f59e9f029693d0c7ef1983100e9b19d628f1d448924e4b0860") {
+    if ($[0] !== "47297170e5615cdf01840e7bdbab1b2a8b217a335574ce4e7fdad48183550b54") {
         for(let $i = 0; $i < 52; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "f6672729b8d9a3f59e9f029693d0c7ef1983100e9b19d628f1d448924e4b0860";
+        $[0] = "47297170e5615cdf01840e7bdbab1b2a8b217a335574ce4e7fdad48183550b54";
     }
     const [open, setOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const [readme, setReadme] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("");
@@ -2114,7 +2294,8 @@ function ProjectCard4() {
                         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$rehype$2d$raw$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
                     ],
                     components: {
-                        div: _temp
+                        div: _temp,
+                        p: _temp2
                     },
                     children: readme
                 }, void 0, false, {
@@ -2166,7 +2347,7 @@ function ProjectCard4() {
             d: "m6 9 6 6 6-6"
         }, void 0, false, {
             fileName: "[project]/src/components/ProjectCard4.tsx",
-            lineNumber: 273,
+            lineNumber: 274,
             columnNumber: 11
         }, this);
         $[37] = t27;
@@ -2189,7 +2370,7 @@ function ProjectCard4() {
             children: t27
         }, void 0, false, {
             fileName: "[project]/src/components/ProjectCard4.tsx",
-            lineNumber: 280,
+            lineNumber: 281,
             columnNumber: 11
         }, this);
         $[38] = t26;
@@ -2209,7 +2390,7 @@ function ProjectCard4() {
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/ProjectCard4.tsx",
-            lineNumber: 289,
+            lineNumber: 290,
             columnNumber: 11
         }, this);
         $[40] = t24;
@@ -2233,7 +2414,7 @@ function ProjectCard4() {
                     className: "max-w-full max-h-full object-contain rounded-xl"
                 }, void 0, false, {
                     fileName: "[project]/src/components/ProjectCard4.tsx",
-                    lineNumber: 301,
+                    lineNumber: 302,
                     columnNumber: 39
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2241,13 +2422,13 @@ function ProjectCard4() {
                     children: "✕"
                 }, void 0, false, {
                     fileName: "[project]/src/components/ProjectCard4.tsx",
-                    lineNumber: 301,
+                    lineNumber: 302,
                     columnNumber: 176
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/ProjectCard4.tsx",
-            lineNumber: 299,
+            lineNumber: 300,
             columnNumber: 23
         }, this);
         $[44] = lightbox;
@@ -2274,7 +2455,7 @@ function ProjectCard4() {
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/ProjectCard4.tsx",
-            lineNumber: 310,
+            lineNumber: 311,
             columnNumber: 11
         }, this);
         $[47] = t19;
@@ -2289,17 +2470,54 @@ function ProjectCard4() {
 }
 _s(ProjectCard4, "ZR3cED1ARMxenWgadnhT+AWkjm0=");
 _c = ProjectCard4;
+function _temp2(t0) {
+    const { node: node_0, children, ...props_0 } = t0;
+    const hasOnlyImages = node_0?.children?.every(_ProjectCard4AnonymousAnonymous);
+    if (hasOnlyImages) {
+        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+            style: {
+                display: "block",
+                textAlign: "inherit"
+            },
+            children: children
+        }, void 0, false, {
+            fileName: "[project]/src/components/ProjectCard4.tsx",
+            lineNumber: 330,
+            columnNumber: 12
+        }, this);
+    }
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+        ...props_0,
+        children: children
+    }, void 0, false, {
+        fileName: "[project]/src/components/ProjectCard4.tsx",
+        lineNumber: 335,
+        columnNumber: 10
+    }, this);
+}
+function _ProjectCard4AnonymousAnonymous(child) {
+    return child.tagName === "img" || child.type === "text" && child.value.trim() === "";
+}
 function _temp(t0) {
     const { node, ...props } = t0;
     const align = node?.properties?.align;
+    if (align === "center") {
+        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            style: {
+                textAlign: "center"
+            },
+            ...props
+        }, void 0, false, {
+            fileName: "[project]/src/components/ProjectCard4.tsx",
+            lineNumber: 347,
+            columnNumber: 12
+        }, this);
+    }
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        style: {
-            textAlign: align === "center" ? "center" : "left"
-        },
         ...props
     }, void 0, false, {
         fileName: "[project]/src/components/ProjectCard4.tsx",
-        lineNumber: 327,
+        lineNumber: 351,
         columnNumber: 10
     }, this);
 }
@@ -2309,7 +2527,7 @@ function _ProjectCard4Anonymous3(t) {
         children: t
     }, t, false, {
         fileName: "[project]/src/components/ProjectCard4.tsx",
-        lineNumber: 332,
+        lineNumber: 354,
         columnNumber: 10
     }, this);
 }
@@ -2319,7 +2537,7 @@ function _ProjectCard4Anonymous2(f) {
         children: f
     }, f, false, {
         fileName: "[project]/src/components/ProjectCard4.tsx",
-        lineNumber: 335,
+        lineNumber: 357,
         columnNumber: 10
     }, this);
 }
@@ -2332,7 +2550,7 @@ function _ProjectCard4Anonymous(m) {
                 children: m.label
             }, void 0, false, {
                 fileName: "[project]/src/components/ProjectCard4.tsx",
-                lineNumber: 338,
+                lineNumber: 360,
                 columnNumber: 92
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2343,13 +2561,13 @@ function _ProjectCard4Anonymous(m) {
                 children: m.value
             }, void 0, false, {
                 fileName: "[project]/src/components/ProjectCard4.tsx",
-                lineNumber: 338,
+                lineNumber: 360,
                 columnNumber: 148
             }, this)
         ]
     }, m.label, true, {
         fileName: "[project]/src/components/ProjectCard4.tsx",
-        lineNumber: 338,
+        lineNumber: 360,
         columnNumber: 10
     }, this);
 }
@@ -2389,11 +2607,11 @@ var _s = __turbopack_context__.k.signature();
 function ProjectCard5() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(32);
-    if ($[0] !== "0c72e13745fd03e7dabe8e0096372903a02b9c8dbfeaeb6bf04caba3548203ea") {
+    if ($[0] !== "ed8bc1cd76cae495dacbeb8703c2835546e8221d5bcfd4c11568050a1e578f1e") {
         for(let $i = 0; $i < 32; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "0c72e13745fd03e7dabe8e0096372903a02b9c8dbfeaeb6bf04caba3548203ea";
+        $[0] = "ed8bc1cd76cae495dacbeb8703c2835546e8221d5bcfd4c11568050a1e578f1e";
     }
     const [open, setOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const [readme, setReadme] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("");
@@ -2879,14 +3097,26 @@ function _ProjectCard5ButtonOnMouseEnter(e_1) {
 function _temp(t0) {
     const { node, ...props } = t0;
     const align = node?.properties?.align;
+    if (align === "center") {
+        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            style: {
+                textAlign: "center",
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center"
+            },
+            ...props
+        }, void 0, false, {
+            fileName: "[project]/src/components/ProjectCard5.tsx",
+            lineNumber: 259,
+            columnNumber: 12
+        }, this);
+    }
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        style: {
-            textAlign: align === "center" ? "center" : "left"
-        },
         ...props
     }, void 0, false, {
         fileName: "[project]/src/components/ProjectCard5.tsx",
-        lineNumber: 258,
+        lineNumber: 266,
         columnNumber: 10
     }, this);
 }
@@ -2901,7 +3131,7 @@ function _ProjectCard5Anonymous3(t) {
         children: t
     }, t, false, {
         fileName: "[project]/src/components/ProjectCard5.tsx",
-        lineNumber: 263,
+        lineNumber: 269,
         columnNumber: 10
     }, this);
 }
@@ -2917,7 +3147,7 @@ function _ProjectCard5Anonymous2(f) {
         children: f
     }, f, false, {
         fileName: "[project]/src/components/ProjectCard5.tsx",
-        lineNumber: 270,
+        lineNumber: 276,
         columnNumber: 10
     }, this);
 }
@@ -2938,7 +3168,7 @@ function _ProjectCard5Anonymous(m) {
                 children: m.label
             }, void 0, false, {
                 fileName: "[project]/src/components/ProjectCard5.tsx",
-                lineNumber: 281,
+                lineNumber: 287,
                 columnNumber: 6
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2950,7 +3180,7 @@ function _ProjectCard5Anonymous(m) {
                 children: m.value
             }, void 0, false, {
                 fileName: "[project]/src/components/ProjectCard5.tsx",
-                lineNumber: 284,
+                lineNumber: 290,
                 columnNumber: 24
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2962,13 +3192,13 @@ function _ProjectCard5Anonymous(m) {
                 children: m.sub
             }, void 0, false, {
                 fileName: "[project]/src/components/ProjectCard5.tsx",
-                lineNumber: 287,
+                lineNumber: 293,
                 columnNumber: 24
             }, this)
         ]
     }, m.label, true, {
         fileName: "[project]/src/components/ProjectCard5.tsx",
-        lineNumber: 278,
+        lineNumber: 284,
         columnNumber: 10
     }, this);
 }
@@ -3014,11 +3244,11 @@ var _s = __turbopack_context__.k.signature();
 function ProjectCard6() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(33);
-    if ($[0] !== "0e238babd40ebb3e90bf2cd0a645b0af6b7a9205449c37410d7c6516f8f3483c") {
+    if ($[0] !== "8a20a0c3933b670633d0caf0a1be31a868ae22cf5075b73c1da5d4b5308306e1") {
         for(let $i = 0; $i < 33; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "0e238babd40ebb3e90bf2cd0a645b0af6b7a9205449c37410d7c6516f8f3483c";
+        $[0] = "8a20a0c3933b670633d0caf0a1be31a868ae22cf5075b73c1da5d4b5308306e1";
     }
     const [open, setOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const [readme, setReadme] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("");
@@ -3525,14 +3755,26 @@ function _ProjectCard6ButtonOnMouseEnter(e_1) {
 function _temp(t0) {
     const { node, ...props } = t0;
     const align = node?.properties?.align;
+    if (align === "center") {
+        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            style: {
+                textAlign: "center",
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center"
+            },
+            ...props
+        }, void 0, false, {
+            fileName: "[project]/src/components/ProjectCard6.tsx",
+            lineNumber: 272,
+            columnNumber: 12
+        }, this);
+    }
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        style: {
-            textAlign: align === "center" ? "center" : "left"
-        },
         ...props
     }, void 0, false, {
         fileName: "[project]/src/components/ProjectCard6.tsx",
-        lineNumber: 271,
+        lineNumber: 279,
         columnNumber: 10
     }, this);
 }
@@ -3547,7 +3789,7 @@ function _ProjectCard6Anonymous3(t) {
         children: t
     }, t, false, {
         fileName: "[project]/src/components/ProjectCard6.tsx",
-        lineNumber: 276,
+        lineNumber: 282,
         columnNumber: 10
     }, this);
 }
@@ -3563,7 +3805,7 @@ function _ProjectCard6Anonymous2(f) {
         children: f
     }, f, false, {
         fileName: "[project]/src/components/ProjectCard6.tsx",
-        lineNumber: 283,
+        lineNumber: 289,
         columnNumber: 10
     }, this);
 }
@@ -3584,7 +3826,7 @@ function _ProjectCard6Anonymous(m) {
                 children: m.label
             }, void 0, false, {
                 fileName: "[project]/src/components/ProjectCard6.tsx",
-                lineNumber: 294,
+                lineNumber: 300,
                 columnNumber: 6
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -3596,7 +3838,7 @@ function _ProjectCard6Anonymous(m) {
                 children: m.value
             }, void 0, false, {
                 fileName: "[project]/src/components/ProjectCard6.tsx",
-                lineNumber: 297,
+                lineNumber: 303,
                 columnNumber: 24
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -3608,13 +3850,13 @@ function _ProjectCard6Anonymous(m) {
                 children: m.sub
             }, void 0, false, {
                 fileName: "[project]/src/components/ProjectCard6.tsx",
-                lineNumber: 300,
+                lineNumber: 306,
                 columnNumber: 24
             }, this)
         ]
     }, m.label, true, {
         fileName: "[project]/src/components/ProjectCard6.tsx",
-        lineNumber: 291,
+        lineNumber: 297,
         columnNumber: 10
     }, this);
 }
@@ -3686,11 +3928,11 @@ const charts = [
 function ProjectCard7() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(61);
-    if ($[0] !== "180f0a3bb67603e387a96f8816e4f0c5053564a5fbecf14eee9eb59fdf4b356d") {
+    if ($[0] !== "2d610b2d97327f7891def543b371de65065fb5fc4c2ffb0119756cb1ea35188c") {
         for(let $i = 0; $i < 61; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "180f0a3bb67603e387a96f8816e4f0c5053564a5fbecf14eee9eb59fdf4b356d";
+        $[0] = "2d610b2d97327f7891def543b371de65065fb5fc4c2ffb0119756cb1ea35188c";
     }
     const [open, setOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const [readme, setReadme] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("");
@@ -4553,14 +4795,23 @@ function _ProjectCard7ButtonOnMouseEnter(e_1) {
 function _temp(t0) {
     const { node, ...props } = t0;
     const align = node?.properties?.align;
+    if (align === "center") {
+        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            style: {
+                textAlign: "center"
+            },
+            ...props
+        }, void 0, false, {
+            fileName: "[project]/src/components/ProjectCard7.tsx",
+            lineNumber: 442,
+            columnNumber: 12
+        }, this);
+    }
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        style: {
-            textAlign: align === "center" ? "center" : "left"
-        },
         ...props
     }, void 0, false, {
         fileName: "[project]/src/components/ProjectCard7.tsx",
-        lineNumber: 441,
+        lineNumber: 446,
         columnNumber: 10
     }, this);
 }
@@ -4575,7 +4826,7 @@ function _ProjectCard7Anonymous3(t) {
         children: t
     }, t, false, {
         fileName: "[project]/src/components/ProjectCard7.tsx",
-        lineNumber: 446,
+        lineNumber: 449,
         columnNumber: 10
     }, this);
 }
@@ -4591,7 +4842,7 @@ function _ProjectCard7Anonymous2(f) {
         children: f
     }, f, false, {
         fileName: "[project]/src/components/ProjectCard7.tsx",
-        lineNumber: 453,
+        lineNumber: 456,
         columnNumber: 10
     }, this);
 }
@@ -4612,7 +4863,7 @@ function _ProjectCard7Anonymous(m) {
                 children: m.label
             }, void 0, false, {
                 fileName: "[project]/src/components/ProjectCard7.tsx",
-                lineNumber: 464,
+                lineNumber: 467,
                 columnNumber: 6
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -4624,7 +4875,7 @@ function _ProjectCard7Anonymous(m) {
                 children: m.value
             }, void 0, false, {
                 fileName: "[project]/src/components/ProjectCard7.tsx",
-                lineNumber: 467,
+                lineNumber: 470,
                 columnNumber: 24
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -4636,13 +4887,13 @@ function _ProjectCard7Anonymous(m) {
                 children: m.sub
             }, void 0, false, {
                 fileName: "[project]/src/components/ProjectCard7.tsx",
-                lineNumber: 470,
+                lineNumber: 473,
                 columnNumber: 24
             }, this)
         ]
     }, m.label, true, {
         fileName: "[project]/src/components/ProjectCard7.tsx",
-        lineNumber: 461,
+        lineNumber: 464,
         columnNumber: 10
     }, this);
 }

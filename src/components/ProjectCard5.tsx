@@ -109,7 +109,17 @@ export default function ProjectCard5() {
               components={{
                 div: ({node, ...props}: any) => {
                   const align = node?.properties?.align;
-                  return <div style={{textAlign: align === 'center' ? 'center' : 'left'}} {...props} />;
+                  if (align === 'center') {
+                    return (
+                      <div style={{
+                        textAlign: 'center',
+                        display: 'flex',
+                        flexDirection: 'column',
+                        alignItems: 'center',
+                      }} {...props} />
+                    );
+                  }
+                  return <div {...props} />;
                 }
               }}
             >

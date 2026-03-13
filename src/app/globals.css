@@ -5,3 +5,8 @@ body {
   background: #0f0f0f;
   min-height: 100vh;
 }
+
+.markdown-body img[src*="shields.io"] {
+  display: inline !important;
+  margin: 2px 2px;
+}

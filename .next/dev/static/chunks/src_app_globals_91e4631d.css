@@ -1154,6 +1154,11 @@ body {
   min-height: 100vh;
 }
 
+.markdown-body img[src*="shields.io"] {
+  margin: 2px;
+  display: inline !important;
+}
+
 @property --tw-rotate-x {
   syntax: "*";
   inherits: false

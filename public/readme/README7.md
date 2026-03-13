@@ -2,15 +2,14 @@
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Ethereum](https://img.shields.io/badge/Ethereum-ERC--20-627EEA?style=for-the-badge&logo=ethereum&logoColor=white)
-![Etherscan](https://img.shields.io/badge/Etherscan-API-21325B?style=for-the-badge&logo=ethereum&logoColor=white)
-![Rich](https://img.shields.io/badge/Rich-Terminal_UI-FF6B6B?style=for-the-badge)
-![Pandas](https://img.shields.io/badge/Pandas-Data_Analysis-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+<img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white" /><img src="https://img.shields.io/badge/Ethereum-ERC--20-627EEA?style=for-the-badge&logo=ethereum&logoColor=white" /><img src="https://img.shields.io/badge/Etherscan-API-21325B?style=for-the-badge&logo=ethereum&logoColor=white" /><img src="https://img.shields.io/badge/Rich-Terminal_UI-FF6B6B?style=for-the-badge" /><img src="https://img.shields.io/badge/Pandas-Data_Analysis-150458?style=for-the-badge&logo=pandas&logoColor=white" /><img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" />
 
-**Monitor large Ethereum wallet movements in real-time using on-chain data.**  
+<br/><br/>
+
+**Monitor large Ethereum wallet movements in real-time using on-chain data.**
 Filter whale transactions, visualize wallet behavior, and export analytics — all from your terminal.
+
+<br/>
 
 [Features](#features) · [Quickstart](#quickstart) · [Interactive Menu](#interactive-menu) · [Visualizations](#visualizations) · [Portfolio](#portfolio-context)
 

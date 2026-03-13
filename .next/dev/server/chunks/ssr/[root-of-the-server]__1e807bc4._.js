@@ -80,7 +80,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$markdown$2f$lib$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__Markdown__as__default$3e$__ = __turbopack_context__.i("[project]/node_modules/react-markdown/lib/index.js [app-ssr] (ecmascript) <export Markdown as default>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$remark$2d$gfm$2f$lib$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/remark-gfm/lib/index.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$rehype$2d$raw$2f$lib$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/rehype-raw/lib/index.js [app-ssr] (ecmascript)");
 'use client';
+;
 ;
 ;
 ;
@@ -326,6 +328,57 @@ function ProjectCard() {
                         remarkPlugins: [
                             __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$remark$2d$gfm$2f$lib$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"]
                         ],
+                        rehypePlugins: [
+                            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$rehype$2d$raw$2f$lib$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"]
+                        ],
+                        components: {
+                            div: ({ node, ...props })=>{
+                                const align = node?.properties?.align;
+                                if (align === 'center') {
+                                    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        style: {
+                                            textAlign: 'center'
+                                        },
+                                        ...props
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/ProjectCard.tsx",
+                                        lineNumber: 89,
+                                        columnNumber: 28
+                                    }, void 0);
+                                }
+                                return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    ...props
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/ProjectCard.tsx",
+                                    lineNumber: 91,
+                                    columnNumber: 26
+                                }, void 0);
+                            },
+                            p: ({ node, children, ...props })=>{
+                                const hasOnlyImages = node?.children?.every((child)=>child.tagName === 'img' || child.type === 'text' && child.value.trim() === '');
+                                if (hasOnlyImages) {
+                                    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        style: {
+                                            display: 'block',
+                                            textAlign: 'inherit'
+                                        },
+                                        children: children
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/ProjectCard.tsx",
+                                        lineNumber: 98,
+                                        columnNumber: 28
+                                    }, void 0);
+                                }
+                                return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    ...props,
+                                    children: children
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/ProjectCard.tsx",
+                                    lineNumber: 100,
+                                    columnNumber: 26
+                                }, void 0);
+                            }
+                        },
                         children: readme
                     }, void 0, false, {
                         fileName: "[project]/src/components/ProjectCard.tsx",
@@ -364,19 +417,19 @@ function ProjectCard() {
                             d: "m6 9 6 6 6-6"
                         }, void 0, false, {
                             fileName: "[project]/src/components/ProjectCard.tsx",
-                            lineNumber: 96,
+                            lineNumber: 117,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/ProjectCard.tsx",
-                        lineNumber: 94,
+                        lineNumber: 115,
                         columnNumber: 9
                     }, this),
                     open ? 'Show Less' : 'Read More'
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/ProjectCard.tsx",
-                lineNumber: 90,
+                lineNumber: 111,
                 columnNumber: 7
             }, this)
         ]
@@ -399,7 +452,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$markdown$2f$lib$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__Markdown__as__default$3e$__ = __turbopack_context__.i("[project]/node_modules/react-markdown/lib/index.js [app-ssr] (ecmascript) <export Markdown as default>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$remark$2d$gfm$2f$lib$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/remark-gfm/lib/index.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$rehype$2d$raw$2f$lib$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/rehype-raw/lib/index.js [app-ssr] (ecmascript)");
 'use client';
+;
 ;
 ;
 ;
@@ -714,6 +769,57 @@ function ProjectCard2() {
                         remarkPlugins: [
                             __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$remark$2d$gfm$2f$lib$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"]
                         ],
+                        rehypePlugins: [
+                            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$rehype$2d$raw$2f$lib$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"]
+                        ],
+                        components: {
+                            div: ({ node, ...props })=>{
+                                const align = node?.properties?.align;
+                                if (align === 'center') {
+                                    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        style: {
+                                            textAlign: 'center'
+                                        },
+                                        ...props
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/ProjectCard2.tsx",
+                                        lineNumber: 101,
+                                        columnNumber: 28
+                                    }, void 0);
+                                }
+                                return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    ...props
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/ProjectCard2.tsx",
+                                    lineNumber: 103,
+                                    columnNumber: 26
+                                }, void 0);
+                            },
+                            p: ({ node, children, ...props })=>{
+                                const hasOnlyImages = node?.children?.every((child)=>child.tagName === 'img' || child.type === 'text' && child.value.trim() === '');
+                                if (hasOnlyImages) {
+                                    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        style: {
+                                            display: 'block',
+                                            textAlign: 'inherit'
+                                        },
+                                        children: children
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/ProjectCard2.tsx",
+                                        lineNumber: 110,
+                                        columnNumber: 28
+                                    }, void 0);
+                                }
+                                return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    ...props,
+                                    children: children
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/ProjectCard2.tsx",
+                                    lineNumber: 112,
+                                    columnNumber: 26
+                                }, void 0);
+                            }
+                        },
                         children: readme
                     }, void 0, false, {
                         fileName: "[project]/src/components/ProjectCard2.tsx",
@@ -752,19 +858,19 @@ function ProjectCard2() {
                             d: "m6 9 6 6 6-6"
                         }, void 0, false, {
                             fileName: "[project]/src/components/ProjectCard2.tsx",
-                            lineNumber: 108,
+                            lineNumber: 129,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/ProjectCard2.tsx",
-                        lineNumber: 106,
+                        lineNumber: 127,
                         columnNumber: 9
                     }, this),
                     open ? 'Show Less' : 'Read More'
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/ProjectCard2.tsx",
-                lineNumber: 102,
+                lineNumber: 123,
                 columnNumber: 7
             }, this)
         ]
@@ -787,7 +893,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$markdown$2f$lib$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__Markdown__as__default$3e$__ = __turbopack_context__.i("[project]/node_modules/react-markdown/lib/index.js [app-ssr] (ecmascript) <export Markdown as default>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$remark$2d$gfm$2f$lib$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/remark-gfm/lib/index.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$rehype$2d$raw$2f$lib$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/rehype-raw/lib/index.js [app-ssr] (ecmascript)");
 'use client';
+;
 ;
 ;
 ;
@@ -1087,6 +1195,57 @@ function ProjectCard3() {
                         remarkPlugins: [
                             __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$remark$2d$gfm$2f$lib$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"]
                         ],
+                        rehypePlugins: [
+                            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$rehype$2d$raw$2f$lib$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"]
+                        ],
+                        components: {
+                            div: ({ node, ...props })=>{
+                                const align = node?.properties?.align;
+                                if (align === 'center') {
+                                    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        style: {
+                                            textAlign: 'center'
+                                        },
+                                        ...props
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/ProjectCard3.tsx",
+                                        lineNumber: 100,
+                                        columnNumber: 28
+                                    }, void 0);
+                                }
+                                return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    ...props
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/ProjectCard3.tsx",
+                                    lineNumber: 102,
+                                    columnNumber: 26
+                                }, void 0);
+                            },
+                            p: ({ node, children, ...props })=>{
+                                const hasOnlyImages = node?.children?.every((child)=>child.tagName === 'img' || child.type === 'text' && child.value.trim() === '');
+                                if (hasOnlyImages) {
+                                    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        style: {
+                                            display: 'block',
+                                            textAlign: 'inherit'
+                                        },
+                                        children: children
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/ProjectCard3.tsx",
+                                        lineNumber: 109,
+                                        columnNumber: 28
+                                    }, void 0);
+                                }
+                                return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    ...props,
+                                    children: children
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/ProjectCard3.tsx",
+                                    lineNumber: 111,
+                                    columnNumber: 26
+                                }, void 0);
+                            }
+                        },
                         children: readme
                     }, void 0, false, {
                         fileName: "[project]/src/components/ProjectCard3.tsx",
@@ -1125,19 +1284,19 @@ function ProjectCard3() {
                             d: "m6 9 6 6 6-6"
                         }, void 0, false, {
                             fileName: "[project]/src/components/ProjectCard3.tsx",
-                            lineNumber: 107,
+                            lineNumber: 128,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/ProjectCard3.tsx",
-                        lineNumber: 105,
+                        lineNumber: 126,
                         columnNumber: 9
                     }, this),
                     open ? 'Show Less' : 'Read More'
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/ProjectCard3.tsx",
-                lineNumber: 101,
+                lineNumber: 122,
                 columnNumber: 7
             }, this)
         ]
@@ -1619,14 +1778,47 @@ function ProjectCard4() {
                         components: {
                             div: ({ node, ...props })=>{
                                 const align = node?.properties?.align;
+                                if (align === 'center') {
+                                    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        style: {
+                                            textAlign: 'center'
+                                        },
+                                        ...props
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/ProjectCard4.tsx",
+                                        lineNumber: 154,
+                                        columnNumber: 28
+                                    }, void 0);
+                                }
                                 return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    style: {
-                                        textAlign: align === 'center' ? 'center' : 'left'
-                                    },
                                     ...props
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/ProjectCard4.tsx",
-                                    lineNumber: 153,
+                                    lineNumber: 156,
+                                    columnNumber: 26
+                                }, void 0);
+                            },
+                            p: ({ node, children, ...props })=>{
+                                const hasOnlyImages = node?.children?.every((child)=>child.tagName === 'img' || child.type === 'text' && child.value.trim() === '');
+                                if (hasOnlyImages) {
+                                    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        style: {
+                                            display: 'block',
+                                            textAlign: 'inherit'
+                                        },
+                                        children: children
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/ProjectCard4.tsx",
+                                        lineNumber: 163,
+                                        columnNumber: 28
+                                    }, void 0);
+                                }
+                                return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    ...props,
+                                    children: children
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/ProjectCard4.tsx",
+                                    lineNumber: 165,
                                     columnNumber: 26
                                 }, void 0);
                             }
@@ -1669,19 +1861,19 @@ function ProjectCard4() {
                             d: "m6 9 6 6 6-6"
                         }, void 0, false, {
                             fileName: "[project]/src/components/ProjectCard4.tsx",
-                            lineNumber: 170,
+                            lineNumber: 182,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/ProjectCard4.tsx",
-                        lineNumber: 168,
+                        lineNumber: 180,
                         columnNumber: 9
                     }, this),
                     open ? 'Show Less' : 'Read More'
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/ProjectCard4.tsx",
-                lineNumber: 164,
+                lineNumber: 176,
                 columnNumber: 7
             }, this),
             lightbox && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1694,7 +1886,7 @@ function ProjectCard4() {
                         className: "max-w-full max-h-full object-contain rounded-xl"
                     }, void 0, false, {
                         fileName: "[project]/src/components/ProjectCard4.tsx",
-                        lineNumber: 181,
+                        lineNumber: 193,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1702,13 +1894,13 @@ function ProjectCard4() {
                         children: "✕"
                     }, void 0, false, {
                         fileName: "[project]/src/components/ProjectCard4.tsx",
-                        lineNumber: 186,
+                        lineNumber: 198,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/ProjectCard4.tsx",
-                lineNumber: 177,
+                lineNumber: 189,
                 columnNumber: 9
             }, this)
         ]
@@ -2063,14 +2255,26 @@ function ProjectCard5() {
                         components: {
                             div: ({ node, ...props })=>{
                                 const align = node?.properties?.align;
+                                if (align === 'center') {
+                                    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        style: {
+                                            textAlign: 'center',
+                                            display: 'flex',
+                                            flexDirection: 'column',
+                                            alignItems: 'center'
+                                        },
+                                        ...props
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/ProjectCard5.tsx",
+                                        lineNumber: 114,
+                                        columnNumber: 23
+                                    }, void 0);
+                                }
                                 return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    style: {
-                                        textAlign: align === 'center' ? 'center' : 'left'
-                                    },
                                     ...props
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/ProjectCard5.tsx",
-                                    lineNumber: 112,
+                                    lineNumber: 122,
                                     columnNumber: 26
                                 }, void 0);
                             }
@@ -2121,19 +2325,19 @@ function ProjectCard5() {
                             d: "m6 9 6 6 6-6"
                         }, void 0, false, {
                             fileName: "[project]/src/components/ProjectCard5.tsx",
-                            lineNumber: 132,
+                            lineNumber: 142,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/ProjectCard5.tsx",
-                        lineNumber: 130,
+                        lineNumber: 140,
                         columnNumber: 9
                     }, this),
                     open ? 'Show Less' : 'Read More'
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/ProjectCard5.tsx",
-                lineNumber: 123,
+                lineNumber: 133,
                 columnNumber: 7
             }, this)
         ]
@@ -2502,14 +2706,26 @@ function ProjectCard6() {
                         components: {
                             div: ({ node, ...props })=>{
                                 const align = node?.properties?.align;
+                                if (align === 'center') {
+                                    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        style: {
+                                            textAlign: 'center',
+                                            display: 'flex',
+                                            flexDirection: 'column',
+                                            alignItems: 'center'
+                                        },
+                                        ...props
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/ProjectCard6.tsx",
+                                        lineNumber: 118,
+                                        columnNumber: 23
+                                    }, void 0);
+                                }
                                 return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    style: {
-                                        textAlign: align === 'center' ? 'center' : 'left'
-                                    },
                                     ...props
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/ProjectCard6.tsx",
-                                    lineNumber: 116,
+                                    lineNumber: 126,
                                     columnNumber: 26
                                 }, void 0);
                             }
@@ -2560,19 +2776,19 @@ function ProjectCard6() {
                             d: "m6 9 6 6 6-6"
                         }, void 0, false, {
                             fileName: "[project]/src/components/ProjectCard6.tsx",
-                            lineNumber: 136,
+                            lineNumber: 146,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/ProjectCard6.tsx",
-                        lineNumber: 134,
+                        lineNumber: 144,
                         columnNumber: 9
                     }, this),
                     open ? 'Show Less' : 'Read More'
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/ProjectCard6.tsx",
-                lineNumber: 127,
+                lineNumber: 137,
                 columnNumber: 7
             }, this)
         ]
@@ -3164,15 +3380,24 @@ function ProjectCard7() {
                         components: {
                             div: ({ node, ...props })=>{
                                 const align = node?.properties?.align;
+                                if (align === 'center') {
+                                    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        style: {
+                                            textAlign: 'center'
+                                        },
+                                        ...props
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/ProjectCard7.tsx",
+                                        lineNumber: 178,
+                                        columnNumber: 22
+                                    }, void 0);
+                                }
                                 return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    style: {
-                                        textAlign: align === 'center' ? 'center' : 'left'
-                                    },
                                     ...props
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/ProjectCard7.tsx",
-                                    lineNumber: 176,
-                                    columnNumber: 28
+                                    lineNumber: 183,
+                                    columnNumber: 25
                                 }, void 0);
                             }
                         },
@@ -3222,19 +3447,19 @@ function ProjectCard7() {
                             d: "m6 9 6 6 6-6"
                         }, void 0, false, {
                             fileName: "[project]/src/components/ProjectCard7.tsx",
-                            lineNumber: 196,
+                            lineNumber: 203,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/ProjectCard7.tsx",
-                        lineNumber: 194,
+                        lineNumber: 201,
                         columnNumber: 9
                     }, this),
                     open ? 'Show Less' : 'Read More'
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/ProjectCard7.tsx",
-                lineNumber: 187,
+                lineNumber: 194,
                 columnNumber: 7
             }, this),
             lightbox && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3250,7 +3475,7 @@ function ProjectCard7() {
                         className: "max-w-full max-h-full object-contain rounded-xl"
                     }, void 0, false, {
                         fileName: "[project]/src/components/ProjectCard7.tsx",
-                        lineNumber: 208,
+                        lineNumber: 215,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -3261,13 +3486,13 @@ function ProjectCard7() {
                         children: "✕"
                     }, void 0, false, {
                         fileName: "[project]/src/components/ProjectCard7.tsx",
-                        lineNumber: 213,
+                        lineNumber: 220,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/ProjectCard7.tsx",
-                lineNumber: 203,
+                lineNumber: 210,
                 columnNumber: 9
             }, this)
         ]
