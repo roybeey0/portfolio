@@ -174,15 +174,21 @@ export default function ProjectCard7() {
                 div: ({node, ...props}: any) => {
                   const align = node?.properties?.align;
                   if (align === 'center') {
-                    return (
-                     <div style={{
-                        textAlign: 'center',
-                    }} {...props} />
-                   );
-                 }
-                 return <div {...props} />;
+                    return <div style={{textAlign: 'center'}} {...props} />;
+                  }
+                  return <div {...props} />;
+                },
+                p: ({node, children, ...props}: any) => {
+                  const align = node?.properties?.align;
+                  const hasOnlyImages = node?.children?.every(
+                    (child: any) => child.tagName === 'img' || (child.type === 'text' && child.value.trim() === '')
+                  );
+                  if (align === 'center' || hasOnlyImages) {
+                    return <p style={{textAlign: 'center', display: 'block'}} {...props}>{children}</p>;
+                  }
+                  return <p {...props}>{children}</p>;
                 }
-                }}
+              }}
                >
                  {readme}
             </ReactMarkdown>

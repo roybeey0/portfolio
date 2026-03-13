@@ -103,11 +103,12 @@ export default function ProjectCard2() {
                   return <div {...props} />;
                 },
                 p: ({node, children, ...props}: any) => {
+                  const align = node?.properties?.align;
                   const hasOnlyImages = node?.children?.every(
                     (child: any) => child.tagName === 'img' || (child.type === 'text' && child.value.trim() === '')
                   );
-                  if (hasOnlyImages) {
-                    return <span style={{display: 'block', textAlign: 'inherit'}}>{children}</span>;
+                  if (align === 'center' || hasOnlyImages) {
+                    return <p style={{textAlign: 'center', display: 'block'}} {...props}>{children}</p>;
                   }
                   return <p {...props}>{children}</p>;
                 }

@@ -10,3 +10,17 @@ body {
   display: inline !important;
   margin: 2px 2px;
 }
+
+.markdown-body p[align="center"],
+.markdown-body div[align="center"],
+.markdown-body p:has(> img),
+.markdown-body p:has(> a > img) {
+  text-align: center !important;
+  display: block !important;
+}
+
+.markdown-body p img,
+.markdown-body p a img {
+  display: inline !important;
+  margin: 2px !important;
+}

@@ -6,6 +6,7 @@ import ProjectCard4 from '@/components/ProjectCard4';
 import ProjectCard5 from '@/components/ProjectCard5';
 import ProjectCard6 from '@/components/ProjectCard6';
 import ProjectCard7 from '@/components/ProjectCard7';
+import ProjectCard8 from '@/components/ProjectCard8';
 
 export default function Home() {
   return (
@@ -86,6 +87,7 @@ export default function Home() {
             <ProjectCard5 />
             <ProjectCard6 />
             <ProjectCard7 />
+            <ProjectCard8 />
           </div>
 
           {/* Footer */}
