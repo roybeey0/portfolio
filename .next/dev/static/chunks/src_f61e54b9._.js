@@ -5021,6 +5021,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$mar
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$remark$2d$gfm$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/remark-gfm/lib/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$rehype$2d$raw$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/rehype-raw/lib/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$remark$2d$math$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/remark-math/lib/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$rehype$2d$katex$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/rehype-katex/lib/index.js [app-client] (ecmascript)");
 ;
 var _s = __turbopack_context__.k.signature();
 'use client';
@@ -5031,14 +5033,17 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 ;
+;
+;
+;
 function ProjectCard8() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(36);
-    if ($[0] !== "fd796ac3de03fe7a5cdcdb5cf02bc4ca5cc63a204df90efcf59e9306e1636d62") {
+    if ($[0] !== "830d355b034e55857eb41290b1fad037ecd6989e7a2a746e097b59647604cfd2") {
         for(let $i = 0; $i < 36; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "fd796ac3de03fe7a5cdcdb5cf02bc4ca5cc63a204df90efcf59e9306e1636d62";
+        $[0] = "830d355b034e55857eb41290b1fad037ecd6989e7a2a746e097b59647604cfd2";
     }
     const [open, setOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const [readme, setReadme] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("");
@@ -5088,7 +5093,7 @@ function ProjectCard8() {
             children: "🧠 AI Research"
         }, void 0, false, {
             fileName: "[project]/src/components/ProjectCard8.tsx",
-            lineNumber: 57,
+            lineNumber: 60,
             columnNumber: 10
         }, this);
         $[5] = t4;
@@ -5106,7 +5111,7 @@ function ProjectCard8() {
             children: "Deep Learning"
         }, void 0, false, {
             fileName: "[project]/src/components/ProjectCard8.tsx",
-            lineNumber: 67,
+            lineNumber: 70,
             columnNumber: 10
         }, this);
         $[6] = t5;
@@ -5129,13 +5134,13 @@ function ProjectCard8() {
                     children: "NumPy Only"
                 }, void 0, false, {
                     fileName: "[project]/src/components/ProjectCard8.tsx",
-                    lineNumber: 77,
+                    lineNumber: 80,
                     columnNumber: 64
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/ProjectCard8.tsx",
-            lineNumber: 77,
+            lineNumber: 80,
             columnNumber: 10
         }, this);
         $[7] = t6;
@@ -5156,7 +5161,7 @@ function ProjectCard8() {
                     children: "Neural Network from Scratch \u2014 XOR & MNIST"
                 }, void 0, false, {
                     fileName: "[project]/src/components/ProjectCard8.tsx",
-                    lineNumber: 87,
+                    lineNumber: 90,
                     columnNumber: 51
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5164,13 +5169,13 @@ function ProjectCard8() {
                     children: "Pure NumPy neural network — forward pass, backprop, and training implemented from first principles"
                 }, void 0, false, {
                     fileName: "[project]/src/components/ProjectCard8.tsx",
-                    lineNumber: 89,
+                    lineNumber: 92,
                     columnNumber: 65
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/ProjectCard8.tsx",
-            lineNumber: 87,
+            lineNumber: 90,
             columnNumber: 10
         }, this);
         $[8] = t7;
@@ -5203,33 +5208,33 @@ function ProjectCard8() {
                                     d: "M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/ProjectCard8.tsx",
-                                    lineNumber: 96,
+                                    lineNumber: 99,
                                     columnNumber: 539
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                                     d: "M9 18c-4.51 2-5-2-7-2"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/ProjectCard8.tsx",
-                                    lineNumber: 96,
+                                    lineNumber: 99,
                                     columnNumber: 800
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/ProjectCard8.tsx",
-                            lineNumber: 96,
+                            lineNumber: 99,
                             columnNumber: 359
                         }, this),
                         "View on GitHub"
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/ProjectCard8.tsx",
-                    lineNumber: 96,
+                    lineNumber: 99,
                     columnNumber: 100
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/ProjectCard8.tsx",
-            lineNumber: 96,
+            lineNumber: 99,
             columnNumber: 10
         }, this);
         $[9] = t8;
@@ -5264,7 +5269,7 @@ function ProjectCard8() {
             ].map(_ProjectCard8Anonymous)
         }, void 0, false, {
             fileName: "[project]/src/components/ProjectCard8.tsx",
-            lineNumber: 103,
+            lineNumber: 106,
             columnNumber: 10
         }, this);
         $[10] = t9;
@@ -5283,7 +5288,7 @@ function ProjectCard8() {
             className: "w-full object-contain max-h-72"
         }, void 0, false, {
             fileName: "[project]/src/components/ProjectCard8.tsx",
-            lineNumber: 130,
+            lineNumber: 133,
             columnNumber: 11
         }, this);
         $[11] = t10;
@@ -5324,34 +5329,34 @@ function ProjectCard8() {
                                                 r: "8"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/ProjectCard8.tsx",
-                                                lineNumber: 139,
+                                                lineNumber: 142,
                                                 columnNumber: 611
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                                                 d: "m21 21-4.35-4.35"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/ProjectCard8.tsx",
-                                                lineNumber: 139,
+                                                lineNumber: 142,
                                                 columnNumber: 643
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                                                 d: "M11 8v6M8 11h6"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/ProjectCard8.tsx",
-                                                lineNumber: 139,
+                                                lineNumber: 142,
                                                 columnNumber: 672
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/ProjectCard8.tsx",
-                                        lineNumber: 139,
+                                        lineNumber: 142,
                                         columnNumber: 431
                                     }, this),
                                     "Click to expand"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/ProjectCard8.tsx",
-                                lineNumber: 139,
+                                lineNumber: 142,
                                 columnNumber: 242
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5359,13 +5364,13 @@ function ProjectCard8() {
                                 children: "Tap to expand"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/ProjectCard8.tsx",
-                                lineNumber: 139,
+                                lineNumber: 142,
                                 columnNumber: 726
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/ProjectCard8.tsx",
-                        lineNumber: 139,
+                        lineNumber: 142,
                         columnNumber: 175
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5373,18 +5378,18 @@ function ProjectCard8() {
                         children: "Per Class Accuracy"
                     }, void 0, false, {
                         fileName: "[project]/src/components/ProjectCard8.tsx",
-                        lineNumber: 139,
+                        lineNumber: 142,
                         columnNumber: 898
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/ProjectCard8.tsx",
-                lineNumber: 139,
+                lineNumber: 142,
                 columnNumber: 48
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/components/ProjectCard8.tsx",
-            lineNumber: 139,
+            lineNumber: 142,
             columnNumber: 11
         }, this);
         $[13] = t12;
@@ -5408,7 +5413,7 @@ function ProjectCard8() {
             ].map(_ProjectCard8Anonymous2)
         }, void 0, false, {
             fileName: "[project]/src/components/ProjectCard8.tsx",
-            lineNumber: 146,
+            lineNumber: 149,
             columnNumber: 11
         }, this);
         $[14] = t13;
@@ -5425,7 +5430,7 @@ function ProjectCard8() {
                     children: "Stack:"
                 }, void 0, false, {
                     fileName: "[project]/src/components/ProjectCard8.tsx",
-                    lineNumber: 153,
+                    lineNumber: 156,
                     columnNumber: 62
                 }, this),
                 [
@@ -5438,7 +5443,7 @@ function ProjectCard8() {
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/ProjectCard8.tsx",
-            lineNumber: 153,
+            lineNumber: 156,
             columnNumber: 11
         }, this);
         $[15] = t14;
@@ -5457,10 +5462,12 @@ function ProjectCard8() {
                 },
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$markdown$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__Markdown__as__default$3e$__["default"], {
                     remarkPlugins: [
-                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$remark$2d$gfm$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
+                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$remark$2d$gfm$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"],
+                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$remark$2d$math$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
                     ],
                     rehypePlugins: [
-                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$rehype$2d$raw$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
+                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$rehype$2d$raw$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"],
+                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$rehype$2d$katex$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
                     ],
                     components: {
                         div: _temp,
@@ -5469,17 +5476,17 @@ function ProjectCard8() {
                     children: readme
                 }, void 0, false, {
                     fileName: "[project]/src/components/ProjectCard8.tsx",
-                    lineNumber: 163,
+                    lineNumber: 166,
                     columnNumber: 10
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/ProjectCard8.tsx",
-                lineNumber: 160,
+                lineNumber: 163,
                 columnNumber: 65
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/components/ProjectCard8.tsx",
-            lineNumber: 160,
+            lineNumber: 163,
             columnNumber: 19
         }, this);
         $[16] = open;
@@ -5516,7 +5523,7 @@ function ProjectCard8() {
             d: "m6 9 6 6 6-6"
         }, void 0, false, {
             fileName: "[project]/src/components/ProjectCard8.tsx",
-            lineNumber: 197,
+            lineNumber: 200,
             columnNumber: 11
         }, this);
         $[23] = t19;
@@ -5539,7 +5546,7 @@ function ProjectCard8() {
             children: t19
         }, void 0, false, {
             fileName: "[project]/src/components/ProjectCard8.tsx",
-            lineNumber: 204,
+            lineNumber: 207,
             columnNumber: 11
         }, this);
         $[24] = t18;
@@ -5559,7 +5566,7 @@ function ProjectCard8() {
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/ProjectCard8.tsx",
-            lineNumber: 213,
+            lineNumber: 216,
             columnNumber: 11
         }, this);
         $[26] = t16;
@@ -5586,7 +5593,7 @@ function ProjectCard8() {
                     className: "max-w-full max-h-full object-contain rounded-xl"
                 }, void 0, false, {
                     fileName: "[project]/src/components/ProjectCard8.tsx",
-                    lineNumber: 227,
+                    lineNumber: 230,
                     columnNumber: 39
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -5594,13 +5601,13 @@ function ProjectCard8() {
                     children: "✕"
                 }, void 0, false, {
                     fileName: "[project]/src/components/ProjectCard8.tsx",
-                    lineNumber: 227,
+                    lineNumber: 230,
                     columnNumber: 174
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/ProjectCard8.tsx",
-            lineNumber: 223,
+            lineNumber: 226,
             columnNumber: 23
         }, this);
         $[30] = lightbox;
@@ -5626,7 +5633,7 @@ function ProjectCard8() {
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/ProjectCard8.tsx",
-            lineNumber: 235,
+            lineNumber: 238,
             columnNumber: 11
         }, this);
         $[32] = t15;
@@ -5654,7 +5661,7 @@ function _temp2(t0) {
             children: children
         }, void 0, false, {
             fileName: "[project]/src/components/ProjectCard8.tsx",
-            lineNumber: 254,
+            lineNumber: 257,
             columnNumber: 12
         }, this);
     }
@@ -5663,7 +5670,7 @@ function _temp2(t0) {
         children: children
     }, void 0, false, {
         fileName: "[project]/src/components/ProjectCard8.tsx",
-        lineNumber: 259,
+        lineNumber: 262,
         columnNumber: 10
     }, this);
 }
@@ -5681,7 +5688,7 @@ function _temp(t0) {
             ...props
         }, void 0, false, {
             fileName: "[project]/src/components/ProjectCard8.tsx",
-            lineNumber: 271,
+            lineNumber: 274,
             columnNumber: 12
         }, this);
     }
@@ -5689,7 +5696,7 @@ function _temp(t0) {
         ...props
     }, void 0, false, {
         fileName: "[project]/src/components/ProjectCard8.tsx",
-        lineNumber: 275,
+        lineNumber: 278,
         columnNumber: 10
     }, this);
 }
@@ -5699,7 +5706,7 @@ function _ProjectCard8Anonymous3(t) {
         children: t
     }, t, false, {
         fileName: "[project]/src/components/ProjectCard8.tsx",
-        lineNumber: 278,
+        lineNumber: 281,
         columnNumber: 10
     }, this);
 }
@@ -5709,7 +5716,7 @@ function _ProjectCard8Anonymous2(f) {
         children: f
     }, f, false, {
         fileName: "[project]/src/components/ProjectCard8.tsx",
-        lineNumber: 281,
+        lineNumber: 284,
         columnNumber: 10
     }, this);
 }
@@ -5722,7 +5729,7 @@ function _ProjectCard8Anonymous(m) {
                 children: m.label
             }, void 0, false, {
                 fileName: "[project]/src/components/ProjectCard8.tsx",
-                lineNumber: 284,
+                lineNumber: 287,
                 columnNumber: 114
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -5733,7 +5740,7 @@ function _ProjectCard8Anonymous(m) {
                 children: m.value
             }, void 0, false, {
                 fileName: "[project]/src/components/ProjectCard8.tsx",
-                lineNumber: 284,
+                lineNumber: 287,
                 columnNumber: 170
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -5741,13 +5748,13 @@ function _ProjectCard8Anonymous(m) {
                 children: m.sub
             }, void 0, false, {
                 fileName: "[project]/src/components/ProjectCard8.tsx",
-                lineNumber: 286,
+                lineNumber: 289,
                 columnNumber: 24
             }, this)
         ]
     }, m.label, true, {
         fileName: "[project]/src/components/ProjectCard8.tsx",
-        lineNumber: 284,
+        lineNumber: 287,
         columnNumber: 10
     }, this);
 }

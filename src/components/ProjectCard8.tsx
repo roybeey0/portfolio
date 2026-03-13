@@ -6,6 +6,9 @@ import remarkGfm from 'remark-gfm';
 import rehypeRaw from 'rehype-raw';
 import 'github-markdown-css/github-markdown-dark.css';
 import { motion } from 'framer-motion';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
+import 'katex/dist/katex.min.css';
 
 export default function ProjectCard8() {
   const [open, setOpen] = useState(false);
@@ -126,8 +129,8 @@ export default function ProjectCard8() {
         <div className="border-t border-white/5 pt-4">
           <div className="markdown-body" style={{backgroundColor: 'transparent', fontSize: '15px'}}>
             <ReactMarkdown
-              remarkPlugins={[remarkGfm]}
-              rehypePlugins={[rehypeRaw]}
+              remarkPlugins={[remarkGfm, remarkMath]}
+              rehypePlugins={[rehypeRaw, rehypeKatex]}
               components={{
                 div: ({node, ...props}: any) => {
                     const align = node?.properties?.align;
