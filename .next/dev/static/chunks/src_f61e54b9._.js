@@ -5039,11 +5039,11 @@ var _s = __turbopack_context__.k.signature();
 function ProjectCard8() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(36);
-    if ($[0] !== "830d355b034e55857eb41290b1fad037ecd6989e7a2a746e097b59647604cfd2") {
+    if ($[0] !== "9a7b5989755feab34cfbecbc78c66f001ab717369d7140ed85eb7cc2b04fa61e") {
         for(let $i = 0; $i < 36; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "830d355b034e55857eb41290b1fad037ecd6989e7a2a746e097b59647604cfd2";
+        $[0] = "9a7b5989755feab34cfbecbc78c66f001ab717369d7140ed85eb7cc2b04fa61e";
     }
     const [open, setOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const [readme, setReadme] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("");
@@ -5090,7 +5090,7 @@ function ProjectCard8() {
                 background: "rgba(255,255,255,0.06)",
                 border: "1px solid rgba(255,255,255,0.08)"
             },
-            children: "🧠 AI Research"
+            children: "AI Research"
         }, void 0, false, {
             fileName: "[project]/src/components/ProjectCard8.tsx",
             lineNumber: 60,

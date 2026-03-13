@@ -36,7 +36,7 @@ export default function ProjectCard8() {
           <div className="flex items-center gap-2 mb-1">
             <span className="text-xs px-2 py-0.5 rounded-full font-medium text-zinc-400"
               style={{background: 'rgba(255,255,255,0.06)', border: '1px solid rgba(255,255,255,0.08)'}}>
-              🧠 AI Research
+                AI Research
             </span>
             <span className="text-xs px-2 py-0.5 rounded-full font-medium text-zinc-400"
               style={{background: 'rgba(255,255,255,0.06)', border: '1px solid rgba(255,255,255,0.08)'}}>
