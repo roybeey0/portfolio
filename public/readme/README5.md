@@ -1,6 +1,6 @@
 # 🔗 Python Blockchain Implementation + Wallet Analytics
 
-> **Portfolio Project** · Roy Beey · UBAYA Data Science & AI · [roybeey.com](https://roybeey.com)
+> **Portfolio Project** · Roybeey · UBAYA Data Science & AI · [roybeey.com](https://roybeey.com)
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square&logo=python)
 ![Blockchain](https://img.shields.io/badge/Blockchain-From%20Scratch-orange?style=flat-square)
