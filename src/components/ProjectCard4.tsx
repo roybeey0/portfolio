@@ -5,6 +5,7 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import 'github-markdown-css/github-markdown-dark.css';
 import { motion } from 'framer-motion';
+import rehypeRaw from 'rehype-raw';
 
 const charts = [
   { file: '01_price_history.png', label: 'Price History' },
@@ -143,7 +144,18 @@ export default function ProjectCard4() {
       {open && (
         <div className="border-t border-white/5 pt-4">
           <div className="markdown-body" style={{ backgroundColor: 'transparent', fontFamily: 'Georgia, serif', fontSize: '15px' }}>
-            <ReactMarkdown remarkPlugins={[remarkGfm]}>{readme}</ReactMarkdown>
+            <ReactMarkdown
+              remarkPlugins={[remarkGfm]}
+              rehypePlugins={[rehypeRaw]}
+              components={{
+                div: ({node, ...props}: any) => {
+                  const align = node?.properties?.align;
+                  return <div style={{textAlign: align === 'center' ? 'center' : 'left'}} {...props} />;
+                }
+              }}
+            >
+              {readme}
+            </ReactMarkdown>
           </div>
         </div>
       )}

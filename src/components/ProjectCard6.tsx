@@ -5,6 +5,7 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import 'github-markdown-css/github-markdown-dark.css';
 import { motion } from 'framer-motion';
+import rehypeRaw from 'rehype-raw';
 
 export default function ProjectCard6() {
   const [open, setOpen] = useState(false);
@@ -106,7 +107,18 @@ export default function ProjectCard6() {
       {open && (
         <div className="border-t pt-4" style={{borderColor: 'rgba(98,126,234,0.15)'}}>
           <div className="markdown-body" style={{backgroundColor: 'transparent', fontFamily: 'monospace', fontSize: '14px', letterSpacing: '0.02em'}}>
-            <ReactMarkdown remarkPlugins={[remarkGfm]}>{readme}</ReactMarkdown>
+            <ReactMarkdown
+              remarkPlugins={[remarkGfm]}
+              rehypePlugins={[rehypeRaw]}
+              components={{
+                div: ({node, ...props}: any) => {
+                  const align = node?.properties?.align;
+                  return <div style={{textAlign: align === 'center' ? 'center' : 'left'}} {...props} />;
+                }
+              }}
+            >
+              {readme}
+            </ReactMarkdown>
           </div>
         </div>
       )}

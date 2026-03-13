@@ -5,6 +5,7 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import 'github-markdown-css/github-markdown-dark.css';
 import { motion } from 'framer-motion';
+import rehypeRaw from 'rehype-raw';
 
 export default function ProjectCard2() {
   const [open, setOpen] = useState(false);

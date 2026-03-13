@@ -444,6 +444,10 @@
     display: none;
   }
 
+  .table {
+    display: table;
+  }
+
   .h-12 {
     height: calc(var(--spacing) * 12);
   }
