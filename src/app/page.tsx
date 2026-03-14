@@ -7,6 +7,7 @@ import ProjectCard5 from '@/components/ProjectCard5';
 import ProjectCard6 from '@/components/ProjectCard6';
 import ProjectCard7 from '@/components/ProjectCard7';
 import ProjectCard8 from '@/components/ProjectCard8';
+import ProjectCard9 from '@/components/ProjectCard9';
 
 export default function Home() {
   return (
@@ -66,7 +67,7 @@ export default function Home() {
 
               {/* Skills */}
               <div className="flex items-center gap-2 flex-wrap justify-center md:justify-start mt-1">
-                {['Python', 'Machine Learning', 'Deep Learning', 'Pandas', 'Numpy', 'TensorFlow', 'Next.js'].map(skill => (
+                {['Python', 'Rust', 'Machine Learning', 'Deep Learning', 'Pandas', 'Numpy', 'TensorFlow', 'Next.js'].map(skill => (
                   <span key={skill} className="text-zinc-600 text-xs border border-white/5 rounded-full px-3 py-1 hover:border-white/10 hover:text-zinc-400 transition-colors cursor-default">
                     {skill}
                   </span>
@@ -88,6 +89,7 @@ export default function Home() {
             <ProjectCard6 />
             <ProjectCard7 />
             <ProjectCard8 />
+            <ProjectCard9 />
           </div>
 
           {/* Footer */}
